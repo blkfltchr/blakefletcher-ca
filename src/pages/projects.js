@@ -35,6 +35,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+            
             <Footer />
         </div>
     )

@@ -1,4 +1,10 @@
 import React from 'react';
+import goodreads from '../images/goodreads-logo.png'
+import medium from '../images/medium-logo.png'
+import twitter from '../images/twitter-logo.png'
+import messenger from '../images/messenger-logo.png'
+import github from '../images/github-logo.png'
+import instagram from '../images/instagram-logo.png'
 
 const Footer = () => {
     return (
@@ -17,6 +23,14 @@ const Footer = () => {
                 </ul>
             </div>
             <p style={{textAlign: "center"}}>blakefletcher.ca v.3.0.0</p>
+            <div style={{display: "flex", justifyContent: "center"}}>
+                <a href="https://www.goodreads.com/user/show/46248158-blake-fletcher" target="_blank" rel="noopener noreferrer"><img style={{margin: "0.3rem", height: "25px"}} src={goodreads} alt="goodreads logo"/></a>
+                <a href="https://medium.com/@blakefletcher" target="_blank" rel="noopener noreferrer"><img style={{margin: "0.3rem", height: "25px"}} src={medium} alt="medium logo"/></a>
+                <a href="https://twitter.com/blkfltchr" target="_blank" rel="noopener noreferrer"><img style={{margin: "0.3rem", height: "25px"}} src={twitter} alt="twitter logo"/></a>
+                <a href="https://m.me/blkfltchr" target="_blank" rel="noopener noreferrer"><img style={{margin: "0.3rem", height: "25px"}} src={messenger} alt="messenger logo"/></a>
+                <a href="https://medium.com/@blakefletcher" target="_blank" rel="noopener noreferrer"><img style={{margin: "0.3rem", height: "25px"}} src={github} alt="github logo"/></a>
+                <a href="https://www.instagram.com/blkfltchr/" target="_blank" rel="noopener noreferrer"><img style={{margin: "0.3rem", height: "25px"}} src={instagram} alt="instagram logo"/></a>
+            </div>
         </div>
     )
 }
