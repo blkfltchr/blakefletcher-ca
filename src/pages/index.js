@@ -1,12 +1,12 @@
 import React from "react"
 import Footer from '../components/Footer'
-import logo from '../images/bf-logo.png'
+import Header from '../components/Header'
 
 const index = () => {
 
     return ( 
         <div style={{maxHeight: "100%"}}>
-            <img src={logo} alt="BlakeFletcher.ca logo" style={{height: "4rem", position: "absolute", top: "12px", left: "12px"}}/>
+            <Header />
             <div style={{margin: "0 auto", width: "75vw", height: "100%", display: "flex", flexDirection: "column", textAlign: "center"}}>
                 <h2 style={{fontFamily: "Lato,Helvetica,Arial,Lucida,sans-serif", fontSize: "2rem"}}>Hey! I'm Blake Fletcher.</h2>
                 <p style={{fontFamily: "Merriweather,Georgia,Times New Roman,serif", fontSize: "1.5rem"}}>At the beginning of 2016, I made a move. I’ve kept moving ever since. Currently, I live in Toronto and work as a Project Manager for <a href="https://lambdaschool.com/" target="_blank" rel="noopener noreferrer">Lambda School</a>, helping graduates get the best jobs they've ever had. Music is my first love. I spend my time building web apps, writing to think clearer, and interacting with people, places and things that I can learn from.</p>
