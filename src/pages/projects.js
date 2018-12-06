@@ -12,7 +12,7 @@ const Projects = () => {
     return (
         <div>
             <Header />
-            <div style={{margin: "0 auto", height: "100%", textAlign: "center"}}>
+            <div style={{margin: "5rem auto 0 auto", height: "100%", textAlign: "center"}}>
                 <h2 style={{fontFamily: "Lato,Helvetica,Arial,Lucida,sans-serif", fontSize: "2rem"}}>Projects.</h2>
                 <div style={{display: "flex", justifyContent: "space-evenly"}}>
                     <div style={{width: "500px", margin: "0.5rem", padding: "0.5rem 0", border: "solid 1px lightgrey", borderRadius: "1.5rem"}}>
