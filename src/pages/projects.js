@@ -24,7 +24,7 @@ const Projects = () => {
                                 <img style={{height: "25px", margin: "0.5rem"}} src={gatsby} alt="gatsby logo"/>
                                 <img style={{height: "25px", margin: "0.5rem"}} src={graphql} alt="graphql logo"/>
                                 <img style={{height: "25px", margin: "0.5rem"}} src={contentful} alt="contentful logo"/>
-                                <img style={{height: "25px", margin: "0.5rem"}} src={styled} alt="styled logo"/>
+                                <img style={{height: "25px", margin: "0.5rem"}} src={styled} title="Styled Components" alt="styled logo"/>
                                 <img style={{height: "25px", margin: "0.5rem"}} src={algolia} alt="algolia logo"/>
                             </div>
                             <div style={{fontFamily: "Merriweather,Georgia,Times New Roman,serif", fontSize: "1.2rem"}}>
@@ -35,7 +35,6 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            
             <Footer />
         </div>
     )
