@@ -10,8 +10,9 @@ const Projects = () => {
             <div style={{margin: "4.5rem auto 0 auto", height: "100%", textAlign: "center"}}>
                 <h2 style={{fontFamily: "Lato,Helvetica,Arial,Lucida,sans-serif", fontSize: "2rem"}}>Projects.</h2>
                 <div style={{display: "flex", justifyContent: "space-evenly"}}>
-                <HowToLearnReact />
+                    <HowToLearnReact />
                 </div>
+                <p style={{fontFamily: "Merriweather,Georgia,Times New Roman,serif", fontSize: "1.5rem"}}>Say hello, I’d love to connect: <a href="mailto:blkfltchr@gmail.com" target="_blank" rel="noopener noreferrer">blkfltchr@gmail.com</a></p>
             </div>
             <Footer />
         </div>

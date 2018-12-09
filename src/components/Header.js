@@ -10,7 +10,7 @@ const Header = () => {
             <div className="nav-links">
                 <Link className="nav-link" to="/"><span role="img" aria-label="house">🏠</span> Home</Link>
                 <Link className="nav-link" to="/projects"><span role="img" aria-label="laptop">💻</span> Projects</Link>
-                <a className="nav-link"  href="mailto:blkfltchr@gmail.com"><span role="img" aria-label="envelope">✉️</span> Contact</a>
+                <a className="nav-link" href="mailto:blkfltchr@gmail.com"><span role="img" aria-label="envelope">✉️</span> Contact</a>
             </div>
         </div>
     )
