@@ -6,7 +6,7 @@
     position: relative;
 }
 
-div.project-card:hover img {
+.project-card-img:hover {
     opacity:0.5;
     width: 100%;
     height: auto;
@@ -20,7 +20,7 @@ div.project-card:hover img {
     -ms-transform: translate(-50%, -50%);
 }
 
-img:hover + .project-buttons, .project-buttons:hover {
+.project-card-img:hover + .project-buttons, .project-buttons:hover {
     display: flex;
     justify-content: space-evenly;
 }

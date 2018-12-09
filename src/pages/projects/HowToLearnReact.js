@@ -28,7 +28,7 @@ const HowToLearnReact = () => (
             data => (
                 <div style={{width: "370px", margin: "0.5rem", padding: "0.5rem 0", border: "solid 1px lightgrey", borderRadius: "1rem"}}>
                     <div className="project-card">
-                        <Img style={{width: "370px"}} sizes={data.file.childImageSharp.sizes} alt="howtolearnreact logo"/>
+                        <Img style={{width: "370px"}} className="project-card-img" sizes={data.file.childImageSharp.sizes} alt="howtolearnreact logo"/>
                         <div className="project-buttons">
                             <a 
                                 className="project-button"

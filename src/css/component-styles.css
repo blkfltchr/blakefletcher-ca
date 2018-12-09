@@ -1,6 +1,7 @@
 /* Header styles */
 
 .bf-logo {
+    height: 4rem;
     position: absolute; 
     top: 12px; 
     left: 6px;
