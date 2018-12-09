@@ -68,5 +68,5 @@ yarn-error.log
 # Yarn Integrity file
 .yarn-integrity
 
-src/pages/contact.js
 src/pages/experience.js
+src/components/layout.js

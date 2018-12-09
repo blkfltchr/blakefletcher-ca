@@ -2,9 +2,7 @@ import React from 'react'
 import {Link} from 'gatsby'
 import logo from '../images/bf-logo.png'
 
-
 const Header = () => {
-
     return (
         <div>
             <Link to="/"><img src={logo} alt="BlakeFletcher.ca logo" style={{height: "4rem", position: "absolute", top: "12px", left: "12px"}}/></Link>
