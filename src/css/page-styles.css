@@ -1,0 +1,30 @@
+/* Project card styles */
+
+.project-card {
+    font-family: Merriweather, Georgia, Times New Roman, serif;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+div.project-card:hover img {
+    opacity:0.5;
+    width: 100%;
+    height: auto;
+}
+.project-buttons {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+img:hover + .project-buttons, .project-buttons:hover {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-button {
+    font-family: Merriweather, Georgia, Times New Roman, serif   
+}
