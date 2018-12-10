@@ -2,12 +2,12 @@
 
 My personal website, bootstrapped with `gatsby-starter-hello-word`.
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-site https://github.com/gatsbyjs/gatsby-starter-hello-world
-```
+[View the live demo here](https://blakefletcher-ca.netlify.com/).
 
-[Wiew the live demo here](https://blakefletcher-ca.netlify.com/).
+Install this starter (assuming Gatsby is installed) by running the following command from your terminal:
+```
+gatsby new gatsby-site https://github.com/blkfltchr/blakefletcher-ca
+```
 
 ## Running in development
 `gatsby develop`
