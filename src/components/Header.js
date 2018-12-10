@@ -8,9 +8,13 @@ const Header = () => {
         <div>
             <Link to="/"><img src={logo} alt="BlakeFletcher.ca logo" className="bf-logo"/></Link>
             <div className="nav-links">
-                <Link className="nav-link" to="/"><span role="img" aria-label="house">🏠</span> Home</Link>
-                <Link className="nav-link" to="/projects"><span role="img" aria-label="laptop">💻</span> Projects</Link>
-                <a className="nav-link" href="mailto:blkfltchr@gmail.com"><span role="img" aria-label="envelope">✉️</span> Contact</a>
+                <div><Link className="nav-link" to="/"><span role="img" aria-label="house">🏠</span> Home</Link></div>
+                <div><Link className="nav-link" to="/projects"><span role="img" aria-label="laptop">💻</span> Projects</Link></div>
+                <div><Link className="nav-link" to="/experience"><span role="img" aria-label="backpack">🎒</span> Experience</Link></div>
+                <div><a className="nav-link" href="mailto:blkfltchr@gmail.com"><span role="img" aria-label="envelope">✉️</span> Contact</a></div>
+                <div><a href="javascript:void(0);" className="burger" onclick="myFunction()">
+                &#9776;
+                </a></div>
             </div>
         </div>
     )

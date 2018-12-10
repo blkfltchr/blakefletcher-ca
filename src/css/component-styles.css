@@ -24,8 +24,36 @@
     color: blue;
 }
 
+.nav-links div {
+    text-decoration: none;
+    color: blue;
+}
+
 .nav-link {
     margin: 0 0.5rem;
+}
+
+.nav-link:hover {
+    border-bottom: 1.5px solid blue;
+}
+
+/* Responsive menu styles */
+
+.burger {
+    display: none;
+    color: black !important;
+}
+
+@media screen and (max-width: 600px) {
+    .burger {
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav-links div:not(:last-child) {
+        display: none;
+    }
 }
 
 /* Footer styles */
