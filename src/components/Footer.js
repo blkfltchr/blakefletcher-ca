@@ -25,7 +25,6 @@ const Footer = () => {
                     <a href="https://www.instagram.com/blkfltchr/" target="_blank" rel="noopener noreferrer"><li>and sharing photos on <span>Instagram</span>.</li></a>
                 </ul>
             </div>
-            <p>blakefletcher.ca v.3.0.0</p>
             <div>
                 <a href="https://www.goodreads.com/user/show/46248158-blake-fletcher" target="_blank" rel="noopener noreferrer"><img src={goodreads} alt="goodreads logo"/></a>
                 <a href="http://github.com/blkfltchr" target="_blank" rel="noopener noreferrer"><img src={github} alt="github logo"/></a>
@@ -35,6 +34,8 @@ const Footer = () => {
                 <a href="https://twitter.com/blkfltchr" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="twitter logo"/></a>
                 <a href="https://www.instagram.com/blkfltchr/" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="instagram logo"/></a>
             </div>
+            <p>blakefletcher.ca v.3.0.0</p>
+            <p><a href="https://github.com/blkfltchr/blakefletcher-ca" target="_blank" rel="noopener noreferrer">Github Repo</a></p>
         </div>
     )
 }

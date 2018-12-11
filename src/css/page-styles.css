@@ -1,9 +1,22 @@
 /* Project card styles */
 
+.project-card-wrapper {
+    width: 370px; 
+    margin: 0.5rem; 
+    padding: 0.5rem 0; 
+    border: solid 1px lightgrey; 
+    border-radius: 1rem;
+}
+
 .project-card {
     font-family: Merriweather, Georgia, Times New Roman, serif;
     font-size: 1.2rem;
     position: relative;
+}
+
+.project-card-img {
+    width: 366px; 
+    margin: 0 auto;
 }
 
 .project-card-img:hover {
@@ -11,6 +24,7 @@
     width: 100%;
     height: auto;
 }
+
 .project-buttons {
     display: none;
     position: absolute;
@@ -26,14 +40,15 @@
 }
 
 .project-button {
-    font-family: Merriweather, Georgia, Times New Roman, serif   
+    font-family: Merriweather, Georgia, Times New Roman, serif;
+    margin: 0.5rem;   
 }
 
 button {
     background-color: blue; 
     color: white; 
-    padding: 5px; 
-    border: solid 1px blue; 
+    padding: 4px; 
+    border: solid 2px blue; 
     font-family: Lato, Helvetica, Arial, Lucida, sans-serif; 
     font-size: 1.1rem; 
     font-weight: bold; 
@@ -43,6 +58,25 @@ button {
 button:hover {
     background-color: white; 
     color: blue; 
-    padding: 5px; 
-    border: solid 1px blue;
+    padding: 4px; 
+    border: solid 2px blue;
 }
+
+.project-content {
+    text-align: center
+}
+
+.project-content h4 {
+    font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 1.4rem;
+}
+.project-content p {
+    font-family: Merriweather, Georgia, Times New Roman, serif; 
+    font-size: 1.1rem;
+}
+
+.project-content img {
+    height: 25px; 
+    margin: 0.5rem;
+}
+
