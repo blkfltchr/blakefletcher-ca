@@ -28,3 +28,21 @@
 .project-button {
     font-family: Merriweather, Georgia, Times New Roman, serif   
 }
+
+button {
+    background-color: blue; 
+    color: white; 
+    padding: 5px; 
+    border: solid 1px blue; 
+    font-family: Lato, Helvetica, Arial, Lucida, sans-serif; 
+    font-size: 1.1rem; 
+    font-weight: bold; 
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: white; 
+    color: blue; 
+    padding: 5px; 
+    border: solid 1px blue;
+}
