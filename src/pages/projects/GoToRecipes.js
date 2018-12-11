@@ -2,19 +2,18 @@ import React from 'react'
 import '../../css/page-styles.css'
 import {StaticQuery, graphql} from 'gatsby'
 import Img from 'gatsby-image'
-import gatsby from '../../images/gatsby-logo-rectangle.png'
-import graphqllogo from '../../images/graphql-logo-rectangle.png'
-import contentful from '../../images/contentful-logo-rectangle.png'
-import styled from '../../images/styled-logo-square.png'
-import algolia from '../../images/algolia-logo-rectangle.png'
+import react from '../../images/react-logo-rectangle.png'
+import redux from '../../images/redux-logo-rectangle.png'
+import firebase from '../../images/firebase-logo-rectangle.png'
+import bootstrap from '../../images/bootstrap-logo-rectangle.png'
 
-const HowToLearnReact = () => (
+const GoToRecipes = () => (
 
     <StaticQuery 
         query = {graphql`
             query {
                 file(relativePath: {
-                    regex: "/howtolearnreact/"
+                    regex: "/gotorecipes/"
                 }) {
                     childImageSharp {
                         sizes(quality: 100) {
@@ -28,54 +27,54 @@ const HowToLearnReact = () => (
             data => (
                 <div style={{width: "370px", margin: "0.5rem", padding: "0.5rem 0", border: "solid 1px lightgrey", borderRadius: "1rem"}}>
                     <div className="project-card">
-                        <Img style={{width: "366px", margin: "0 auto"}} className="project-card-img" sizes={data.file.childImageSharp.sizes} alt="howtolearnreact logo"/>
+                        <Img style={{width: "366px", margin: "0 auto"}} className="project-card-img" sizes={data.file.childImageSharp.sizes} alt="gotorecipes logo"/>
                         <div className="project-buttons">
                             <a 
                                 className="project-button"
                                 style={{margin: "0.5rem"}} 
-                                href="https://github.com/blkfltchr/howtolearnreact" 
+                                href="https://github.com/blkfltchr/gotorecipes" 
                                 target="_blank" 
                                 rel="noopener noreferrer">
                                 <button>Code</button>
                             </a>
-                            <a 
+                            {/* <a 
                                 className="project-button"
                                 style={{margin: "0.5rem"}} 
-                                href="https://www.howtolearnreact.com/" 
+                                href="https://www.gotorecipes.firebaseapp.com/" 
                                 target="_blank" 
                                 rel="noopener noreferrer">
                                 <button>Website</button>
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                     <div style={{textAlign: "center"}}>
-                        <h4 style={{fontFamily: "Lato,Helvetica,Arial,Lucida,sans-serif", fontSize: "1.4rem"}}>How To Learn React</h4>
-                        <p style={{fontFamily: "Merriweather,Georgia,Times New Roman,serif", fontSize: "1.1rem", textAlign: "center"}}>A project intended to share the things I learn while working with React. As I build things, complete tutorials, read articles, and watch videos, I add to the blog.</p>
+                        <h4 style={{fontFamily: "Lato,Helvetica,Arial,Lucida,sans-serif", fontSize: "1.4rem", marginBlockEnd: "1rem"}}>GoToRecipes</h4>
+                        <p style={{fontFamily: "Lato,Helvetica,Arial,Lucida,sans-serif", fontSize: "1.1rem"}}><span style={{fontStyle: "italic"}}>Under construction</span> <span role="img" aria-label="construction sign">🚧</span></p>
+                        <p style={{fontFamily: "Merriweather,Georgia,Times New Roman,serif", fontSize: "1.1rem", textAlign: "center"}}>A simple recipe tracker for people who don't know what to eat today. Built with React and Redux for the front end and Firebase for authentication, database and hosting.</p>
                         <div>
-                            <img style={{height: "25px", margin: "0.5rem"}} src={gatsby} alt="gatsby logo"/>
-                            <img style={{height: "25px", margin: "0.5rem"}} src={graphqllogo} alt="graphql logo"/>
-                            <img style={{height: "25px", margin: "0.5rem"}} src={contentful} alt="contentful logo"/>
-                            <img style={{height: "25px", margin: "0.5rem"}} src={styled} title="Styled Components" alt="styled logo"/>
-                            <img style={{height: "25px", margin: "0.5rem"}} src={algolia} alt="algolia logo"/>
+                            <img style={{height: "25px", margin: "0.5rem"}} src={react} alt="react logo"/>
+                            <img style={{height: "25px", margin: "0.5rem"}} src={redux} alt="redux logo"/>
+                            <img style={{height: "25px", margin: "0.5rem"}} src={firebase} alt="firebase logo"/>
+                            <img style={{height: "25px", margin: "0.5rem"}} src={bootstrap} alt="bootstrap logo"/>
                         </div>
                     </div>
                     <div>
                             <a 
                                 className="project-button"
                                 style={{margin: "0.5rem"}} 
-                                href="https://github.com/blkfltchr/howtolearnreact" 
+                                href="https://github.com/blkfltchr/gotorecipes" 
                                 target="_blank" 
                                 rel="noopener noreferrer">
                                 <button>Code</button>
                             </a>
-                            <a 
+                            {/* <a 
                                 className="project-button"
                                 style={{margin: "0.5rem"}} 
-                                href="https://www.howtolearnreact.com/" 
+                                href="https://www.gotorecipes.firebaseapp.com/" 
                                 target="_blank" 
                                 rel="noopener noreferrer">
                                 <button>Website</button>
-                            </a>
+                            </a> */}
                         </div>
                 </div>
             )
@@ -83,4 +82,4 @@ const HowToLearnReact = () => (
     />
 )
 
-export default HowToLearnReact
+export default GoToRecipes
