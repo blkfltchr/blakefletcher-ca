@@ -57,9 +57,7 @@ button {
 
 button:hover {
     background-color: white; 
-    color: blue; 
-    padding: 4px; 
-    border: solid 2px blue;
+    color: blue;
 }
 
 .project-content {

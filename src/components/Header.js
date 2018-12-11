@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'gatsby'
-import '../css/component-styles.css'
+import '../css/header-styles.css'
 import logo from '../images/bf-logo.jpg'
 
 const Header = () => {
@@ -12,9 +12,9 @@ const Header = () => {
                 <div><Link className="nav-link" to="/projects"><span role="img" aria-label="laptop">💻</span> Projects</Link></div>
                 <div><Link className="nav-link" to="/experience"><span role="img" aria-label="backpack">🎒</span> Experience</Link></div>
                 <div><a className="nav-link" href="mailto:blkfltchr@gmail.com"><span role="img" aria-label="envelope">✉️</span> Contact</a></div>
-                <div><a href="javascript:void(0);" className="burger" onclick="myFunction()">
+                <div><button style={{backgroundColor: "white", border: "none"}} href="javascript:void(0);" className="burger" onclick="myFunction()">
                 &#9776;
-                </a></div>
+                </button></div>
             </div>
         </div>
     )

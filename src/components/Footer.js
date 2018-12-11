@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/component-styles.css'
+import '../css/footer-styles.css'
 import goodreads from '../images/goodreads-logo.png'
 import medium from '../images/medium-logo.png'
 import twitter from '../images/twitter-logo.png'
