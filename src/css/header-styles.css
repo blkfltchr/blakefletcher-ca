@@ -51,7 +51,28 @@
 }
 
 @media screen and (max-width: 600px) {
-    .nav-links div:not(:last-child) {
+    .nav-links-none {
         display: none;
     }
+}
+
+@media screen and (max-width: 600px) {
+    .nav-links {
+        position: relative; 
+        top: 0; 
+        right: 0;
+        height: 100vh; 
+        flex-direction: column;
+        justify-content: space-evenly; 
+        align-items: center;
+    }   
+}
+
+@media screen and (max-width: 600px) {
+    .burger {
+        display: block;
+        position: absolute; 
+        top: 25px; 
+        right: 25px;
+    }   
 }
