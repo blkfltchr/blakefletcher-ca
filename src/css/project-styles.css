@@ -8,9 +8,23 @@
     border-radius: 1rem;
 }
 
-/* Project card (image with buttons) styles */
+@media screen and (max-width: 500px) {
 
-/* container */
+    .project-card-wrapper {
+        width: 90vw; 
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    
+    .project-card-img {
+        max-width: 89vw;
+    }
+    
+}
+
+/* Project card (image with buttons) styles */
 
 .project-card {
     font-family: Merriweather, Georgia, Times New Roman, serif;
@@ -18,19 +32,14 @@
     position: relative;
 }
 
-/* image */
-
 .project-card-img {
     opacity: 1;
     display: block;
-    transition: .5s ease;
     backface-visibility: hidden;
     width: 366px; 
     margin: 0 auto;
     position: absolute;
 }
-
-/* middle */
 
 .project-buttons {
     transition: .5s ease;
@@ -44,19 +53,13 @@
     justify-content: space-evenly;
 }
 
-/* container:hover image */
-
 .project-card:hover .project-card-img {
     opacity:0.3;
 }
 
-/* container:hover middle */
-
 .project-card:hover .project-buttons {
     opacity:1;
 }
-
-/* text */
 
 .project-button {
     background-color: blue;
@@ -70,8 +73,6 @@
     text-decoration: none;
     font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
 }
-
-/* text:hover */
 
 .project-button:hover {
     background-color: white; 

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/experience.css'
+import '../css/experience-styles.css'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Lambda from './exp/Lambda'
