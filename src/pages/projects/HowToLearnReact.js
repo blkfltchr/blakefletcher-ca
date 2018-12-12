@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../css/page-styles.css'
+import '../../css/project-styles.css'
 import {StaticQuery, graphql} from 'gatsby'
 import Img from 'gatsby-image'
 import gatsby from '../../images/gatsby-logo-rectangle.png'
@@ -35,14 +35,14 @@ const HowToLearnReact = () => (
                                 href="https://github.com/blkfltchr/howtolearnreact" 
                                 target="_blank" 
                                 rel="noopener noreferrer">
-                                <button>Code</button>
+                                Code
                             </a>
                             <a 
                                 className="project-button"
                                 href="https://www.howtolearnreact.com/" 
                                 target="_blank" 
                                 rel="noopener noreferrer">
-                                <button>Website</button>
+                                Website
                             </a>
                         </div>
                     </div>
@@ -63,14 +63,14 @@ const HowToLearnReact = () => (
                                 href="https://github.com/blkfltchr/howtolearnreact" 
                                 target="_blank" 
                                 rel="noopener noreferrer">
-                                <button>Code</button>
+                                Code
                             </a>
                             <a 
                                 className="project-button"
                                 href="https://www.howtolearnreact.com/" 
                                 target="_blank" 
                                 rel="noopener noreferrer">
-                                <button>Website</button>
+                                Website
                             </a>
                         </div>
                 </div>

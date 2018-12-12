@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../css/page-styles.css'
+import '../../css/project-styles.css'
 import {StaticQuery, graphql} from 'gatsby'
 import Img from 'gatsby-image'
 import react from '../../images/react-logo-rectangle.png'
@@ -34,14 +34,14 @@ const GoToRecipes = () => (
                                 href="https://github.com/blkfltchr/gotorecipes" 
                                 target="_blank" 
                                 rel="noopener noreferrer">
-                                <button>Code</button>
+                                Code
                             </a>
                             {/* <a 
                                 className="project-button" 
                                 href="https://www.gotorecipes.firebaseapp.com/" 
                                 target="_blank" 
                                 rel="noopener noreferrer">
-                                <button>Website</button>
+                                Website
                             </a> */}
                         </div>
                     </div>
@@ -62,14 +62,14 @@ const GoToRecipes = () => (
                                 href="https://github.com/blkfltchr/gotorecipes" 
                                 target="_blank" 
                                 rel="noopener noreferrer">
-                                <button>Code</button>
+                                Code
                             </a>
                             {/* <a 
                                 className="project-button"
                                 href="https://www.gotorecipes.firebaseapp.com/" 
                                 target="_blank" 
                                 rel="noopener noreferrer">
-                                <button>Website</button>
+                                Website
                             </a> */}
                         </div>
                 </div>
