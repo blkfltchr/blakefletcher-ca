@@ -21,3 +21,13 @@
         width: 80vw;
     }   
 }
+
+.experience-img {
+    width: 60vw;
+}
+
+@media screen and (max-width: 768px) {
+    .experience-img {
+        width: 80vw;
+    }   
+}
