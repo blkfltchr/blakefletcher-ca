@@ -1,0 +1,23 @@
+/* /experience styles */
+
+.experience-wrapper {
+    margin: 4.5rem auto 0 auto; 
+    height: 100%; 
+    text-align: center;
+}
+
+.experience-wrapper h2 {
+    font-family: Lato, Helvetica, Arial, Lucida, sans-serif; 
+    font-size: 2rem;
+}
+
+.experience-wrapper div {
+    margin: 0 auto;
+    width: 60vw;
+}
+
+@media screen and (max-width: 768px) {
+    .experience-wrapper div {
+        width: 80vw;
+    }   
+}

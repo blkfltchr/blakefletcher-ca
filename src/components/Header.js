@@ -12,11 +12,11 @@ class Header extends React.Component {
     }
 
     handleToggleMenu = () => {
-        if (this.state.menuClassName = "nav-links nav-links-none") {
+        if (this.state.menuClassName === "nav-links nav-links-none") {
             this.setState({
                 menuClassName: "nav-links"
             })
-        } if (this.state.menuClassName != "nav-links nav-links-none") {
+        } else {
             this.setState({
                 menuClassName: "nav-links nav-links-none"
             })
