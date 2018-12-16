@@ -1,0 +1,12 @@
+/* Exp styles */
+
+.exp h2 {
+    font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 1.4rem;
+}
+
+.exp p {
+    font-family: Merriweather, Georgia, Times New Roman, serif;
+    font-size: 1.1rem;
+    text-align: center;
+}

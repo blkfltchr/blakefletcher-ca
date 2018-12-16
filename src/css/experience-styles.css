@@ -16,6 +16,16 @@
     width: 60vw;
 }
 
+.experience-wrapper hr {
+    margin: 1.5rem 0 2rem 0
+}
+
+.experience-wrapper p {
+    font-family: Merriweather, Georgia, Times New Roman, serif; 
+    font-size: 1.5rem;
+    text-align: center;
+}
+
 @media screen and (max-width: 768px) {
     .experience-wrapper div {
         width: 80vw;

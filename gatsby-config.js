@@ -4,6 +4,7 @@ module.exports = {
       description: 'Hi! I\'m Blake Fletcher.'
     },
     plugins: [
+        `gatsby-transformer-remark`,
         `gatsby-plugin-sharp`,
         `gatsby-transformer-sharp`,
         `gatsby-image`,
