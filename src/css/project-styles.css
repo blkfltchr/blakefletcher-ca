@@ -1,3 +1,32 @@
+/* /projects styles */
+
+.projects-text {
+    margin: 4.5rem auto 0 auto; 
+    height: 100%; 
+    text-align: center;
+}
+
+.projects-text h2 {
+    font-family: Lato, Helvetica, Arial, Lucida, sans-serif; 
+    font-size: 2rem;
+}
+
+.projects-text div {
+    display: flex; 
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+}
+
+.say-hello {
+    font-family: Merriweather, Georgia, Times New Roman, serif; 
+    font-size: 1.5rem; 
+    text-align: center;
+}
+
+.say-hello a {
+    color: blue;
+}
+
 /* Project card styles */
 
 .project-card-wrapper {
