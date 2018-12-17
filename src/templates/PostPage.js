@@ -10,9 +10,9 @@ export default class PostPage extends Component {
     return (
       <div>
         <Header />
-        <div style={{width: "60vw", margin: "4.5rem auto 0 auto"}}>
-          <h2 style={{fontFamily: "Lato,Helvetica,Arial,Lucida,sans-serif", fontSize: "2rem"}}>{frontmatter.title}</h2>
-          <p style={{fontFamily: "Merriweather,Georgia,Times New Roman,serif", fontSize: "1.4rem", fontStyle: "italic", color: "grey"}}>{frontmatter.date}</p>
+        <div className="postpage-wrapper">
+          <h2>{frontmatter.title}</h2>
+          <p className="postpage-date">{frontmatter.date}</p>
           <div className="markdown" dangerouslySetInnerHTML={{ __html: html }}></div>
         </div>
         <Footer />

@@ -1,4 +1,5 @@
 import React from 'react'
+import '../css/writing-styles.css'
 import {Link, graphql} from 'gatsby'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
@@ -8,22 +9,22 @@ import Footer from '../components/Footer'
     return (
         <div>
             <Header />
-            <div style={{margin: "4.5rem auto 0 auto", height: "100%", textAlign: "center"}}>
-                <h2 style={{fontFamily: "Lato,Helvetica,Arial,Lucida,sans-serif", fontSize: "2rem"}}>Writing.</h2>
+            <div className="writing-title">
+                <h2>Writing.</h2>
             </div>
             {edges.map(edge => {
                 const {frontmatter} = edge.node
                 return (
-                    <Link style={{color: "black", textDecoration: "none"}} to={frontmatter.path}>
-                        <div style={{width: "60vw", margin: "0 auto"}} key={frontmatter.path}>
-                            <h2 style={{fontFamily: "Lato,Helvetica,Arial,Lucida,sans-serif", fontSize: "1.4rem", color: "blue", textDecoration: "underline"}}>{frontmatter.title}</h2>
-                            <p style={{fontFamily: "Merriweather,Georgia,Times New Roman,serif", fontSize: "1.1rem"}}>{frontmatter.date}</p>
-                            <p style={{fontFamily: "Merriweather,Georgia,Times New Roman,serif", fontSize: "1.1rem"}}>{frontmatter.description}</p>
+                    <Link className="blogpost-link" to={frontmatter.path}>
+                        <div key={frontmatter.path}>
+                            <h2>{frontmatter.title}</h2>
+                            <p>{frontmatter.date}</p>
+                            <p>{frontmatter.description}</p>
                         </div>
                     </Link>
                 )
             })}
-            <p style={{fontFamily: "Merriweather,Georgia,Times New Roman,serif", fontSize: "1.5rem", textAlign: "center"}}>Say hello, I’d love to connect: <a href="mailto:blkfltchr@gmail.com" target="_blank" rel="noopener noreferrer" style={{color: "blue"}}>blkfltchr@gmail.com</a></p>
+            <p className="say-hello">Say hello, I’d love to connect: <a href="mailto:blkfltchr@gmail.com" target="_blank" rel="noopener noreferrer">blkfltchr@gmail.com</a></p>
             <Footer />
         </div>
     )
