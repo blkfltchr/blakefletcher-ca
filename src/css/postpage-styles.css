@@ -1,0 +1,38 @@
+/* Post styles */
+
+.markdown h2 {
+    font-family: Lato, Helvetica, Arial, Lucida, sans-serif; 
+    font-size: 1.4rem;
+}
+
+.markdown p {
+    font-family: Merriweather, Georgia, Times New Roman, serif; 
+    font-size: 1.1rem; 
+}
+
+.markdown img {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.markdown code {
+    color: #a700ff;
+    padding: 2px;
+    font:15px Monaco, Consolas, "Andale  Mono", "DejaVu Sans Mono", monospace
+  }
+  
+.markdown pre code {
+    background: #f6f9fc;
+    border: 1px solid #ddd;
+    border-left: 3px solid #62DAFC;
+    color: #666;
+    page-break-inside: avoid;
+    font:15px Monaco, Consolas, "Andale  Mono", "DejaVu Sans Mono", monospace;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+}
