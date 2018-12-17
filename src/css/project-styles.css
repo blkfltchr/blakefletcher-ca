@@ -65,7 +65,8 @@
     opacity: 1;
     display: block;
     backface-visibility: hidden;
-    width: 366px; 
+    width: 366px;
+    height: 199px;
     margin: 0 auto;
     position: absolute;
 }
@@ -111,7 +112,9 @@
 /* Project content (text and tech images) */
 
 .project-content {
-    text-align: center
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .project-content h4 {
@@ -122,10 +125,13 @@
 .project-content p {
     font-family: Merriweather, Georgia, Times New Roman, serif; 
     font-size: 1.1rem;
+    margin-top: 0;
 }
 
 .project-content div {
     margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: center;
 }
 
 .project-content img {
