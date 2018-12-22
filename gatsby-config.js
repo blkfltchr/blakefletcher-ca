@@ -34,6 +34,9 @@ module.exports = {
           options: {
             logo: "./src/favicon.jpg",
           }
+        },
+        {
+          plugins: [`gatsby-plugin-react-helmet`]
         }
       ]
   }

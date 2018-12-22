@@ -3,11 +3,17 @@ import '../css/writing-styles.css'
 import {Link, graphql} from 'gatsby'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import {Helmet} from 'react-helmet'
 
  const Writing = ({data}) => {
     const { edges } = data.allMarkdownRemark
     return (
         <div>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Writing - Blake Fletcher</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
             <Header />
             <div className="writing-title">
                 <h2>Writing.</h2>

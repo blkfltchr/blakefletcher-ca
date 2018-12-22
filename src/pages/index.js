@@ -2,11 +2,17 @@ import React from "react"
 import '../css/index-styles.css'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
+import {Helmet} from 'react-helmet'
 
 const index = () => {
 
     return ( 
         <div>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Hey! I'm Blake Fletcher.</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
             <Header />
             <div className="index-text">
                 <h2>Hey! I'm Blake Fletcher.</h2>

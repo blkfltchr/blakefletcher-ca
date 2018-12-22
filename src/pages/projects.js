@@ -4,10 +4,16 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import HowToLearnReact from './projects/HowToLearnReact'
 import GoToRecipes from './projects/GoToRecipes'
+import {Helmet} from 'react-helmet'
 
 const Projects = () => {
     return (
-        <div>
+        <div>  
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Projects - Blake Fletcher</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
             <Header />
             <div className="projects-text">
                 <h2>Projects.</h2>

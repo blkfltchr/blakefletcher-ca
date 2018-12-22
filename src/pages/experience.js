@@ -6,10 +6,17 @@ import Lambda from './exp/Lambda'
 import Pluto from './exp/Pluto'
 import Mighty from './exp/Mighty'
 import Sprout from './exp/Sprout'
+import {Helmet} from 'react-helmet'
 
 const Experience = () => {
     return (
         <div>
+            
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Experience - Blake Fletcher</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
             <Header />
             <div className="experience-wrapper">
                 <h2>Experience.</h2>

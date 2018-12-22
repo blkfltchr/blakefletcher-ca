@@ -12,10 +12,16 @@ import seagull from '../images/jonathan-livingston-seagull.jpg'
 import vagabonding from '../images/vagabonding.jpg'
 import virginity from '../images/losing-my-virginity.jpg'
 import zen from '../images/zen-and-art-of-motorcycle-maintenance.jpg'
+import {Helmet} from 'react-helmet'
 
 const Books = () => {
     return (
         <div>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Books - Blake Fletcher</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
             <Header />
             <div style={{margin: "4.5rem auto 0 auto", height: "100%", textAlign: "center"}}>
                 <h2 style={{fontFamily: "Lato, Helvetica, Arial, Lucida, sans-serif", fontSize: "2rem"}}>Books.</h2>
