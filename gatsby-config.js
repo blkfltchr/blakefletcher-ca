@@ -28,6 +28,12 @@ module.exports = {
             name: 'posts',
             path: `${__dirname}/src/posts`
           }
+        },
+        {
+          resolve: `gatsby-plugin-favicon`,
+          options: {
+            logo: "./src/favicon.jpg",
+          }
         }
       ]
   }
