@@ -11,7 +11,7 @@ const index = () => {
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Hey! I'm Blake Fletcher.</title>
-                <link rel="canonical" href="http://mysite.com/example" />
+                <link rel="canonical" href="http://www.blakefletcher.ca/" />
             </Helmet>
             <Header />
             <div className="index-text">
