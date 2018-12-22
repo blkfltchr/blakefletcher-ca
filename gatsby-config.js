@@ -8,6 +8,7 @@ module.exports = {
         `gatsby-plugin-sharp`,
         `gatsby-transformer-sharp`,
         `gatsby-image`,
+        `gatsby-plugin-react-helmet`,
         {
           resolve: `gatsby-source-filesystem`,
           options: {
@@ -34,9 +35,6 @@ module.exports = {
           options: {
             logo: "./src/favicon.jpg",
           }
-        },
-        {
-          plugins: [`gatsby-plugin-react-helmet`]
         }
       ]
   }
