@@ -37,7 +37,9 @@ class Header extends React.Component {
                     <div><a className="nav-link" href="mailto:blkfltchr@gmail.com"><span role="img" aria-label="envelope">✉️</span> Contact</a></div>
                 </div>
                 <div><button className="burger" onClick={this.handleToggleMenu}>
-                    &#9776;
+                    <div className="burger-div"></div>
+                    <div className="burger-div"></div>
+                    <div className="burger-div"></div>
                 </button></div>
             </div>
         )

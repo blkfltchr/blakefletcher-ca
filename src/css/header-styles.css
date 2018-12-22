@@ -47,6 +47,13 @@
     text-decoration: none;
 }
 
+.burger-div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
 @media screen and (max-width: 768px) {
     .burger {
         display: inline;
