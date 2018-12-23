@@ -12,7 +12,7 @@ import {Helmet} from 'react-helmet'
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Writing - Blake Fletcher</title>
-                <link rel="canonical" href="http://www.blakefletcher.ca/writing" />
+                <link rel="canonical" href="https://www.blakefletcher.ca/writing" />
             </Helmet>
             <Header />
             <div className="writing-title">

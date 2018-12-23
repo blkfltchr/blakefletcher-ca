@@ -12,7 +12,7 @@ const Projects = () => {
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Projects - Blake Fletcher</title>
-                <link rel="canonical" href="http://www.blakefletcher.ca/" />
+                <link rel="canonical" href="https://www.blakefletcher.ca/" />
             </Helmet>
             <Header />
             <div className="projects-text">

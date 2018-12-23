@@ -20,7 +20,7 @@ const Books = () => {
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Books - Blake Fletcher</title>
-                <link rel="canonical" href="http://www.blakefletcher.ca/books" />
+                <link rel="canonical" href="https://www.blakefletcher.ca/books" />
             </Helmet>
             <Header />
             <div style={{margin: "4.5rem auto 0 auto", height: "100%", textAlign: "center"}}>
