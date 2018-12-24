@@ -1,0 +1,32 @@
+/* Books styles */
+
+.books-wrapper {
+    margin: 4.5rem auto 0 auto; 
+    height: 100%; 
+    text-align: center;
+    width: 80vw;
+}
+
+.books-wrapper h2 {
+    font-family: Lato, Helvetica, Arial, Lucida, sans-serif; 
+    font-size: 2rem;
+}
+
+.books-container p {
+    font-family: Merriweather, Georgia, Times New Roman, serif; 
+    font-size: 1.5rem; 
+    text-align: center;
+}
+
+.books-container div {
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    margin: 0 auto;
+}
+
+.books-container img {
+    height: 333px; 
+    width: 218px; 
+    margin: 1rem;
+}

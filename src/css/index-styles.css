@@ -1,11 +1,17 @@
 
 .index-text {
     margin: 2.5rem auto 0 auto; 
-    width: 75vw; 
+    width: 60vw; 
     height: 100%; 
     display: flex; 
     flex-direction: column; 
     text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .index-text {
+        width: 80vw;
+    }   
 }
 
 .index-text h2 {

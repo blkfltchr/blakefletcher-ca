@@ -1,4 +1,6 @@
+
 import React from 'react'
+import '../css/books-styles.css'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import emyth from '../images/e-myth-revisited.jpg'
@@ -23,22 +25,22 @@ const Books = () => {
                 <link rel="canonical" href="https://www.blakefletcher.ca/books" />
             </Helmet>
             <Header />
-            <div style={{margin: "4.5rem auto 0 auto", height: "100%", textAlign: "center"}}>
-                <h2 style={{fontFamily: "Lato, Helvetica, Arial, Lucida, sans-serif", fontSize: "2rem"}}>Books.</h2>
-                <div>
-                    <p style={{fontFamily: "Merriweather, Georgia, Times New Roman, serif", fontSize: "1.5rem", textAlign: "center"}}>These are the books I've read, again and again.</p>
-                    <div style={{display: "flex", justifyContent: "center", flexWrap: "wrap", width: "80vw", margin: "0 auto"}}>
-                        <img src={emyth} alt="e myth revisited" style={{height: "333px", width: "218px", margin: "1rem"}} />
-                        <img src={enders} alt="enders game" style={{height: "333px", width: "218px", margin: "1rem"}} />
-                        <img src={howtofail} alt="how to fail" style={{height: "333px", width: "218px", margin: "1rem"}} />
-                        <img src={insomniac} alt="insomniac city" style={{height: "333px", width: "218px", margin: "1rem"}} />
-                        <img src={meditations} alt="meditations" style={{height: "333px", width: "218px", margin: "1rem"}} />
-                        <img src={proust} alt="how proust can change your life" style={{height: "333px", width: "218px", margin: "1rem"}} />
-                        <img src={rebel} alt="rebel without a crew" style={{height: "333px", width: "218px", margin: "1rem"}} />
-                        <img src={seagull} alt="jonathan livingston seagull" style={{height: "333px", width: "218px", margin: "1rem"}} />
-                        <img src={vagabonding} alt="meditations" style={{height: "333px", width: "218px", margin: "1rem"}} />
-                        <img src={virginity} alt="losing my virginity" style={{height: "333px", width: "218px", margin: "1rem"}} />
-                        <img src={zen} alt="zen and the art of motorcycle maintenance" style={{height: "333px", width: "218px", margin: "1rem"}} />
+            <div className="books-wrapper">
+                <h2>Books.</h2>
+                <div className="books-container">
+                    <p>These are the books I've read, again and again.</p>
+                    <div>
+                        <img src={emyth} alt="e myth revisited"/>
+                        <img src={enders} alt="enders game"/>
+                        <img src={howtofail} alt="how to fail"/>
+                        <img src={insomniac} alt="insomniac city"/>
+                        <img src={meditations} alt="meditations"/>
+                        <img src={proust} alt="how proust can change your life"/>
+                        <img src={rebel} alt="rebel without a crew"/>
+                        <img src={seagull} alt="jonathan livingston seagull"/>
+                        <img src={vagabonding} alt="meditations"/>
+                        <img src={virginity} alt="losing my virginity"/>
+                        <img src={zen} alt="zen and the art of motorcycle maintenance"/>
 
                     </div>
                 </div>
