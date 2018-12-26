@@ -24,7 +24,6 @@ class Header extends React.Component {
     }
 
     render() {
-        console.log(this.state)
         return (
             <div>
                 <Link to="/"><img src={logo} alt="BlakeFletcher.ca logo" className="bf-logo"/></Link>
