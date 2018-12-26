@@ -1,12 +1,12 @@
 import React from 'react'
 import '../css/experience-styles.css'
+import {Helmet} from 'react-helmet'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Lambda from './exp/Lambda'
 import Pluto from './exp/Pluto'
 import Mighty from './exp/Mighty'
 import Sprout from './exp/Sprout'
-import {Helmet} from 'react-helmet'
 
 const Experience = () => {
     return (

@@ -1,10 +1,10 @@
 import React from 'react'
 import '../css/project-styles.css'
+import {Helmet} from 'react-helmet'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import HowToLearnReact from './projects/HowToLearnReact'
 import GoToRecipes from './projects/GoToRecipes'
-import {Helmet} from 'react-helmet'
 
 const Projects = () => {
     return (

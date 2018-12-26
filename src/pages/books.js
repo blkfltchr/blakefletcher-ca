@@ -1,6 +1,7 @@
 
 import React from 'react'
 import '../css/books-styles.css'
+import {Helmet} from 'react-helmet'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import emyth from '../images/e-myth-revisited.jpg'
@@ -14,7 +15,6 @@ import seagull from '../images/jonathan-livingston-seagull.jpg'
 import vagabonding from '../images/vagabonding.jpg'
 import virginity from '../images/losing-my-virginity.jpg'
 import zen from '../images/zen-and-art-of-motorcycle-maintenance.jpg'
-import {Helmet} from 'react-helmet'
 
 const Books = () => {
     return (
