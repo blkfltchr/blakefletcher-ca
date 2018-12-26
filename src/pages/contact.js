@@ -34,6 +34,7 @@ const Contact = () => (
                 </div>
             </form>
         </div>
+        <p className="say-hello">Say hello, I’d love to connect: <a href="mailto:blkfltchr@gmail.com" target="_blank" rel="noopener noreferrer">blkfltchr@gmail.com</a></p>
         <Footer />
     </div>
 )
