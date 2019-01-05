@@ -5,6 +5,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import HowToLearnReact from './projects/HowToLearnReact'
 import GoToRecipes from './projects/GoToRecipes'
+import LambdaTimeline from './projects/LambdaTimeline';
 
 const Projects = () => {
     return (
@@ -20,6 +21,7 @@ const Projects = () => {
                 <div>
                     <HowToLearnReact />
                     <GoToRecipes />
+                    <LambdaTimeline />
                 </div>
             </div>
             <p className="say-hello">Say hello, I’d love to connect: <a href="mailto:blkfltchr@gmail.com" target="_blank" rel="noopener noreferrer">blkfltchr@gmail.com</a></p>
