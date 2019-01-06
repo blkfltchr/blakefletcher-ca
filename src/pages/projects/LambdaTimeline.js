@@ -46,7 +46,8 @@ const LambdaTimeline = () => (
                     </div>
                     <div className="project-content">
                         <h4>Lambda Timeline</h4>
-                        <p>An iOS/Android app that allows prospective students to explore Lambda's curriculum and apply to each of the school's major tracks (Full-Stack Web, iOS, Data Science,Android, UX Design). I built it during a 48 hour hackathon after learning it for a week.</p>
+                        <p style={{fontFamily: "Lato,Helvetica,Arial,Lucida,sans-serif"}}><span style={{fontStyle: "italic"}}>Hackathon winner - Most Polished Mobile UI</span> <span role="img" aria-label="trophy">🏆</span></p>
+                        <p>An iOS/Android app that allows prospective students to explore Lambda's curriculum and apply to each of the school's major tracks (Full-Stack Web, iOS, Data Science, Android, UX Design).</p>
                         <div>
                             <img src={flutter} alt="flutter logo"/>
                             <img src={dart} alt="graphql logo"/>
