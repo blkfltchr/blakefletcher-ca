@@ -12,7 +12,7 @@ const LambdaTimeline = () => (
         query = {graphql`
             query {
                 file(relativePath: {
-                    regex: "/lambdatimeline/"
+                    regex: "/timeline/"
                 }) {
                     childImageSharp {
                         sizes(quality: 100) {
