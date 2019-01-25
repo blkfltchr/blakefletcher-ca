@@ -34,18 +34,19 @@ const SpanishConjugator = () => (
                                 rel="noopener noreferrer">
                                 Code
                             </a>
-                            {/* <a 
+                            <a 
                                 className="project-button" 
-                                href="https://www.gotorecipes.firebaseapp.com/" 
+                                href="https://spanish-conjugator.netlify.com/" 
                                 target="_blank" 
                                 rel="noopener noreferrer">
                                 Website
-                            </a> */}
+                            </a>
                         </div>
                     </div>
                     <div className="project-content">
                         <h4>Spanish Conjugator</h4>
-                        <p>This app is intended to help me learn Spanish and programming in unison. It will morph into a suite of language learning tools. I bult it during my time in Medellín, Colombia while working for Lambda School.</p>
+                        <p>Built with <a href="https://github.com/nickoferrall" style={{color: 'blue', fontWeight: 'bold'}} target="_blank" rel="noopener noreferrer">Nick O'Ferrall</a></p>
+                        <p>This app is intended to help me learn Spanish and programming in unison. It will morph into a suite of language learning tools. I built it during my time in Medellín, Colombia while working for Lambda School.</p>
                         <div>
                             <img src={react} alt="react logo"/>
                             <img src={styled} title="Styled Components" alt="styled logo"/>
@@ -59,13 +60,13 @@ const SpanishConjugator = () => (
                                 rel="noopener noreferrer">
                                 Code
                             </a>
-                            {/* <a 
+                            <a 
                                 className="project-button"
-                                href="https://www.howtolearnreact.com/" 
+                                href="https://spanish-conjugator.netlify.com/" 
                                 target="_blank" 
                                 rel="noopener noreferrer">
                                 Website
-                            </a> */}
+                            </a>
                         </div>
                 </div>
             )
