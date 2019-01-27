@@ -19,7 +19,7 @@ const Footer = () => {
                     <a href="https://medium.com/@blakefletcher" target="_blank" rel="noopener noreferrer"><li>writing stories on <span>Medium</span> on rare occasion;</li></a>
                 </ul>
                 <ul>
-                    <a href="https://www.linkedin.com/in/blakemfletcher/" target="_blank" rel="noopener noreferrer"><li>adding to the collective rolodex that is <span>LinkedIn</span>;</li></a>
+                    <a href="https://www.linkedin.com/in/blkfltchr/" target="_blank" rel="noopener noreferrer"><li>adding to the collective rolodex that is <span>LinkedIn</span>;</li></a>
                     <a href="https://m.me/blkfltchr" target="_blank" rel="noopener noreferrer"><li>avoiding the <span>Facebook</span> newsfeed;</li></a>
                     <a href="https://twitter.com/blkfltchr" target="_blank" rel="noopener noreferrer"><li>trying to start conversations but mostly listening on <span>Twitter</span>;</li></a>
                     <a href="https://www.instagram.com/blkfltchr/" target="_blank" rel="noopener noreferrer"><li>and sharing photos on <span>Instagram</span>.</li></a>
@@ -29,7 +29,7 @@ const Footer = () => {
                 <a href="https://www.goodreads.com/user/show/46248158-blake-fletcher" target="_blank" rel="noopener noreferrer"><img src={goodreads} alt="goodreads logo"/></a>
                 <a href="http://github.com/blkfltchr" target="_blank" rel="noopener noreferrer"><img src={github} alt="github logo"/></a>
                 <a href="https://medium.com/@blakefletcher" target="_blank" rel="noopener noreferrer"><img src={medium} alt="medium logo"/></a>
-                <a href="https://www.linkedin.com/in/blakemfletcher/" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="messenger logo"/></a>
+                <a href="https://www.linkedin.com/in/blkfltchr/" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="messenger logo"/></a>
                 <a href="https://m.me/blkfltchr" target="_blank" rel="noopener noreferrer"><img src={messenger} alt="messenger logo"/></a>
                 <a href="https://twitter.com/blkfltchr" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="twitter logo"/></a>
                 <a href="https://www.instagram.com/blkfltchr/" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="instagram logo"/></a>
