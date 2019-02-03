@@ -55,19 +55,19 @@
     border-radius: 2px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
     .burger {
         display: inline;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
     .nav-links-none {
         display: none;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
     .nav-links {
         position: relative; 
         top: 0; 
@@ -80,7 +80,7 @@
     }   
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
     .burger {
         display: block;
         position: absolute; 

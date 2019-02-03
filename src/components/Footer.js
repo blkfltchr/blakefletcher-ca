@@ -26,6 +26,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div>
+                
                 <a href="https://www.goodreads.com/user/show/46248158-blake-fletcher" target="_blank" rel="noopener noreferrer"><img src={goodreads} alt="goodreads logo"/></a>
                 <a href="http://github.com/blkfltchr" target="_blank" rel="noopener noreferrer"><img src={github} alt="github logo"/></a>
                 <a href="https://medium.com/@blakefletcher" target="_blank" rel="noopener noreferrer"><img src={medium} alt="medium logo"/></a>
