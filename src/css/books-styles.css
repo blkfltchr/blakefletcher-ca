@@ -38,3 +38,14 @@
 .books-container img:hover {
     margin-top: 2px;
 }
+
+.book-notes {
+    display: flex;
+    font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 1.8rem;
+}
+
+.book-notes a {
+    color: blue;
+    margin: 1rem;
+}
