@@ -1,25 +1,24 @@
 /* /projects styles */
 
 .projects-text {
-    margin: 4.5rem auto 0 auto; 
-    height: 100%; 
+    height: 100%;
     text-align: center;
 }
 
 .projects-text h2 {
-    font-family: Lato, Helvetica, Arial, Lucida, sans-serif; 
+    font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
     font-size: 2rem;
 }
 
 .projects-text div {
-    display: flex; 
-    justify-content: center; 
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .say-hello {
-    font-family: Merriweather, Georgia, Times New Roman, serif; 
-    font-size: 1.5rem; 
+    font-family: Merriweather, Georgia, Times New Roman, serif;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -30,27 +29,27 @@
 /* Project card styles */
 
 .project-card-wrapper {
-    width: 370px; 
-    margin: 0.5rem; 
-    padding: 0.5rem 0 1.5rem 0; 
-    border: solid 1px lightgrey; 
+    width: 370px;
+    margin: 0.5rem;
+    padding: 0.5rem 0 1.5rem 0;
+    border: solid 1px lightgrey;
     border-radius: 1rem;
 }
 
 @media screen and (max-width: 500px) {
 
     .project-card-wrapper {
-        width: 90vw; 
+        width: 90vw;
     }
 
 }
 
 @media screen and (max-width: 500px) {
-    
+
     .project-card-img {
         max-width: 89vw;
     }
-    
+
 }
 
 /* Project card (image with buttons) styles */
@@ -84,11 +83,11 @@
 }
 
 .project-card:hover .project-card-img {
-    opacity:0.3;
+    opacity: 0.3;
 }
 
 .project-card:hover .project-buttons {
-    opacity:1;
+    opacity: 1;
 }
 
 .project-button {
@@ -106,7 +105,7 @@
 }
 
 .project-button:hover {
-    background-color: white; 
+    background-color: white;
     color: blue;
 }
 
@@ -124,7 +123,7 @@
 }
 
 .project-content p {
-    font-family: Merriweather, Georgia, Times New Roman, serif; 
+    font-family: Merriweather, Georgia, Times New Roman, serif;
     font-size: 1.1rem;
     margin-top: 0;
 }
@@ -136,7 +135,6 @@
 }
 
 .project-content img {
-    height: 25px; 
+    height: 25px;
     margin: 0.5rem;
 }
-

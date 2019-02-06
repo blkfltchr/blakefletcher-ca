@@ -1,13 +1,12 @@
 /* /experience styles */
 
 .experience-wrapper {
-    margin: 4.5rem auto 0 auto; 
-    height: 100%; 
+    height: 100%;
     text-align: center;
 }
 
 .experience-wrapper h2 {
-    font-family: Lato, Helvetica, Arial, Lucida, sans-serif; 
+    font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
     font-size: 2rem;
 }
 
@@ -21,7 +20,7 @@
 }
 
 .experience-wrapper p {
-    font-family: Merriweather, Georgia, Times New Roman, serif; 
+    font-family: Merriweather, Georgia, Times New Roman, serif;
     font-size: 1.5rem;
     text-align: center;
 }
@@ -29,7 +28,7 @@
 @media screen and (max-width: 768px) {
     .experience-wrapper div {
         width: 80vw;
-    }   
+    }
 }
 
 .experience-img {
@@ -39,12 +38,12 @@
 @media screen and (max-width: 768px) {
     .experience-img {
         width: 80vw;
-    }   
+    }
 }
 
 .say-hello {
-    font-family: Merriweather, Georgia, Times New Roman, serif; 
-    font-size: 1.5rem; 
+    font-family: Merriweather, Georgia, Times New Roman, serif;
+    font-size: 1.5rem;
     text-align: center;
 }
 

@@ -2,20 +2,21 @@
 
 .bf-logo {
     height: 4rem;
-    position: absolute; 
-    top: 12px; 
+    position: absolute;
+    top: 12px;
     left: 6px;
+    z-index: 150;
 }
 
 .nav-links {
-    position: absolute; 
-    top: 12px; 
-    right: 12px; 
-    height: 3rem; 
-    font-family: Lato,Helvetica,Arial,Lucida,sans-serif; 
-    font-size: 1.2rem; 
-    display: flex; 
-    justify-content: space-evenly; 
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    height: 3rem;
+    font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -42,9 +43,10 @@
 .burger {
     display: none;
     color: black !important;
-    background-color: white; 
+    background-color: white;
     border: none;
     text-decoration: none;
+    z-index: 150;
 }
 
 .burger-div {
@@ -53,6 +55,7 @@
     background-color: black;
     margin: 6px 0;
     border-radius: 2px;
+    z-index: 100;
 }
 
 @media screen and (max-width: 850px) {
@@ -69,24 +72,26 @@
 
 @media screen and (max-width: 850px) {
     .nav-links {
-        position: relative; 
-        top: 0; 
+        position: relative;
+        top: 0;
         right: 0;
-        height: 400px; 
+        background-color: white;
+        height: 400px;
         flex-direction: column;
-        justify-content: space-evenly; 
+        justify-content: space-evenly;
         align-items: center;
-        border-bottom: solid 1px lightgrey;
-    }   
+        border-bottom: solid 2px lightgrey;
+        z-index: 50;
+    }
 }
 
 @media screen and (max-width: 850px) {
     .burger {
         display: block;
-        position: absolute; 
-        top: 25px; 
+        position: absolute;
+        top: 25px;
         right: 25px;
-    }   
+    }
 }
 
 button:focus {

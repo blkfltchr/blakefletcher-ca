@@ -25,7 +25,7 @@ class Header extends React.Component {
 
     render() {
         return (
-            <div>
+            <div style={{height: "70px"}}>
                 <Link to="/"><img src={logo} alt="BlakeFletcher.ca logo" className="bf-logo"/></Link>
                 <div className={this.state.menuClassName}>
                     <div><Link className="nav-link" to="/"><span role="img" aria-label="house">🏠</span> Home</Link></div>
@@ -34,7 +34,7 @@ class Header extends React.Component {
                     <div><Link className="nav-link" to="/writing"><span role="img" aria-label="notebook">📓</span> Writing</Link></div>
                     <div><Link className="nav-link" to="/books"><span role="img" aria-label="books">📚</span> Books</Link></div>
                     <div><a className="nav-link" href="https://drive.google.com/file/d/1_5kFgPAO0lXPWJ8WX56I3x0cdMYdlM7_/view" target="_blank" rel="noopener noreferrer"><span role="img" aria-label="briefcase">💼</span> Resume</a></div>
-                    <div><Link className="nav-link" href="/contact"><span role="img" aria-label="envelope">✉️</span> Contact</Link></div>
+                    <div><Link className="nav-link" to="/contact"><span role="img" aria-label="envelope">✉️</span> Contact</Link></div>
                 </div>
                 <div><button className="burger" onClick={this.handleToggleMenu}>
                     <div className="burger-div"></div>

@@ -1,13 +1,13 @@
 /* Post styles */
 
 .markdown h2 {
-    font-family: Lato, Helvetica, Arial, Lucida, sans-serif; 
+    font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
     font-size: 1.4rem;
 }
 
 .markdown p {
-    font-family: Merriweather, Georgia, Times New Roman, serif; 
-    font-size: 1.1rem; 
+    font-family: Merriweather, Georgia, Times New Roman, serif;
+    font-size: 1.1rem;
 }
 
 .markdown img {
@@ -24,32 +24,36 @@
 .markdown code {
     color: #a700ff;
     padding: 2px;
-    font:15px Monaco, Consolas, "Andale  Mono", "DejaVu Sans Mono", monospace
-  }
-  
+    font: 15px Monaco, Consolas, "Andale  Mono", "DejaVu Sans Mono", monospace
+}
+
 .markdown pre code {
     background: #f6f9fc;
     border: 1px solid #ddd;
     border-left: 3px solid #62DAFC;
     color: #666;
     page-break-inside: avoid;
-    font:15px Monaco, Consolas, "Andale  Mono", "DejaVu Sans Mono", monospace;
+    font: 15px Monaco, Consolas, "Andale  Mono", "DejaVu Sans Mono", monospace;
     line-height: 1.6;
     margin-bottom: 1.6em;
     max-width: 100%;
     overflow: auto;
     padding: 1em 1.5em;
     display: block;
-    white-space: pre-wrap;       /* css-3 */
-    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-    white-space: -pre-wrap;      /* Opera 4-6 */
-    white-space: -o-pre-wrap;    /* Opera 7 */
-    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    white-space: pre-wrap;
+    /* css-3 */
+    white-space: -moz-pre-wrap;
+    /* Mozilla, since 1999 */
+    white-space: -pre-wrap;
+    /* Opera 4-6 */
+    white-space: -o-pre-wrap;
+    /* Opera 7 */
+    word-wrap: break-word;
+    /* Internet Explorer 5.5+ */
 }
 
 .postpage-wrapper {
-    width: 60vw; 
-    margin: 4.5rem auto 0 auto;
+    width: 60vw;
 }
 
 @media screen and (max-width: 768px) {
@@ -59,13 +63,13 @@
 }
 
 .postpage-wrapper h2 {
-    font-family: Lato, Helvetica, Arial, Lucida, sans-serif; 
+    font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
     font-size: 2rem;
 }
 
 .postpage-date {
-    font-family: Merriweather,Georgia,Times New Roman,serif; 
-    font-size: 1.4rem; 
-    font-style: italic; 
+    font-family: Merriweather, Georgia, Times New Roman, serif;
+    font-size: 1.4rem;
+    font-style: italic;
     color: grey;
 }
