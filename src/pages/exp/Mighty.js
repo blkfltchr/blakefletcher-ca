@@ -25,7 +25,7 @@ const Mighty = () => (
                     <Img className="experience-img" sizes={data.file.childImageSharp.sizes} alt="mighty jumbo"/>
                     <h4>Mighty Records (<a href="http://mightyrecords.ca/" target="_blank" rel="noopener noreferrer" style={{color: "blue"}}>view site</a>)</h4>
                     <p>We created Mighty Records to release our own music independently. In early 2016, the Mighty Records blog went live. We grew a following and connected with others in the industry. I interviewed artists, reviewed shows, and created playlists. At Mighty Records, I helped with releasing music, managing artists, growing the team, and curating content.</p>
-                    <p style={{fontStyle: "italic"}}>Artist Manager and Blogger, January 2016-February 2017</p>
+                    <p className="exp-dates">Artist Manager and Blogger, January 2016-February 2017</p>
                 </div>
             )
         }
