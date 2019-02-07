@@ -42,10 +42,10 @@
 .book-notes {
     display: flex;
     font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
-    font-size: 1.8rem;
 }
 
 .book-notes a {
     color: blue;
-    margin: 1rem;
+    margin: 0.7rem;
+    font-size: 1.4rem;
 }

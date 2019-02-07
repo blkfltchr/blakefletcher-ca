@@ -11,7 +11,7 @@ export default class PostPage extends Component {
       <div>
         <Header />
         <div className="postpage-wrapper">
-          <h2>{frontmatter.title}</h2>
+          <h1>{frontmatter.title}</h1>
           <p className="postpage-date">{frontmatter.date}</p>
           <div className="markdown" dangerouslySetInnerHTML={{ __html: html }}></div>
         </div>

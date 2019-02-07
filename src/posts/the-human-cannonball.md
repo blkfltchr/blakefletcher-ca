@@ -5,7 +5,7 @@ title: "The human cannonball"
 description: "Giovanni Mancini couldn’t fall asleep. Tomorrow, he was being shot out of a cannon, wearing only the clothes on his back, in to a mesh netting one hundred and fourteen feet away."
 ---
 
-iovanni Mancini couldn’t fall asleep. His body was restless. All he could smell was gunpowder. His ears were ringing. He fought to keep his eyes closed but an endless loop played on his eyelids. Tomorrow, he was being shot out of a cannon, wearing only the clothes on his back, in to a mesh netting one hundred and fourteen feet away.
+Giovanni Mancini couldn’t fall asleep. His body was restless. All he could smell was gunpowder. His ears were ringing. He fought to keep his eyes closed but an endless loop played on his eyelids. Tomorrow, he was being shot out of a cannon, wearing only the clothes on his back, in to a mesh netting one hundred and fourteen feet away.
 
 Mancini had done it once before. It was exhilarating. It reminded him of days when he was going too fast around the corners of winding roads. The air on his face felt like car rides with the windows down, moving towards no destination. He trusted he was going somewhere, he just didn’t know where yet.
 
