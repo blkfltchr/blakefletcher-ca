@@ -67,3 +67,7 @@
 .exp-dates {
     font-style: italic;
 }
+
+.left-paragraph {
+    text-align: left !important;
+}

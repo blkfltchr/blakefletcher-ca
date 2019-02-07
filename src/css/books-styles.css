@@ -40,12 +40,15 @@
 }
 
 .book-notes {
-    display: flex;
     font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
+    list-style: none;
+}
+
+.book-notes li {
+    margin: 1rem;
 }
 
 .book-notes a {
     color: blue;
-    margin: 0.7rem;
     font-size: 1.4rem;
 }

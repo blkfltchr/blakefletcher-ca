@@ -4,7 +4,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
 }
 
 @media screen and (max-width: 768px) {
@@ -16,6 +16,7 @@
 .index-text h2 {
     font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
     font-size: 2rem;
+    text-align: center;
 }
 
 .index-text p {

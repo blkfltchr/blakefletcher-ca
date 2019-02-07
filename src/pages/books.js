@@ -43,18 +43,18 @@ const Books = () => {
                         <a href="https://www.goodreads.com/book/show/629.Zen_and_the_Art_of_Motorcycle_Maintenance" target="_blank" rel="noopener noreferrer"><img src={zen} alt="zen and the art of motorcycle maintenance"/></a>
                     </div>
                     <p>These are some of the notes I've taken from some of the books I've read.</p>
-                    <div className="book-notes">
-                        <p><a href="https://medium.com/@blakefletcher/on-writing-well-by-william-zinsser-in-5-minutes-d15e45b9501d" target="_blank" rel="noopener noreferrer">On Writing Well by William Zinsser in 5 minutes</a></p>
-                        <p><a href="https://medium.com/@blakefletcher/influence-by-robert-cialdini-in-5-minutes-66c26032df6b" target="_blank" rel="noopener noreferrer">Influence by Robert Cialdini in 5 minutes</a></p>
-                        <p><a href="https://medium.com/@blakefletcher/ego-is-the-enemy-by-ryan-holiday-in-5-minutes-8a22f98df1e3" target="_blank" rel="noopener noreferrer">Ego is the Enemy by Ryan Holiday in 5 minutes</a></p>
-                        <p><a href="https://medium.com/@blakefletcher/show-your-work-by-austin-kleon-in-5-minutes-fd3335c416bf" target="_blank" rel="noopener noreferrer">Show Your Work by Austin Kleon in 5 minutes</a></p>
-                        <p><a href="https://medium.com/@blakefletcher/how-to-fail-at-almost-everything-and-still-win-big-by-scott-adams-in-5-minutes-14cd829c9c8f" target="_blank" rel="noopener noreferrer">How to Fail at Almost Everything and Still Win Big by Scott Adams in 5 minutes</a></p>
-                        <p><a href="https://medium.com/@blakefletcher/the-inner-game-of-tennis-by-w-timothy-gallwey-in-5-minutes-d1696f432517" target="_blank" rel="noopener noreferrer">The Inner Game of Tennis by W. Timothy Gallwey in 5 minutes</a></p>
-                        <p><a href="https://medium.com/@blakefletcher/art-of-the-start-2-0-by-guy-kawasaki-in-4-minutes-a432f17cbc2f" target="_blank" rel="noopener noreferrer">The Art of the Start by Guy Kawasaki in 4 minutes</a></p>
-                        <p><a href="https://medium.com/@blakefletcher/pitch-anything-by-oren-klaff-in-6-minutes-216268baa8c3" target="_blank" rel="noopener noreferrer">Pitch Anything by Oren Klaff in 6 minutes</a></p>
-                        <p><a href="https://medium.com/@blakefletcher/rework-by-jason-fried-and-dhh-in-6-minutes-2857682ba98" target="_blank" rel="noopener noreferrer">Rework by Jason Fried and DHH in 6 minutes</a></p>
-                        <p><a href="https://medium.com/@blakefletcher/the-heros-journey-of-all-creative-people-b4d2e2bdc922" target="_blank" rel="noopener noreferrer">Ignore Everybody by Hugh MacLeod in 3 minutes</a></p>
-                    </div>
+                    <ul className="book-notes">
+                        <li><a href="https://medium.com/@blakefletcher/on-writing-well-by-william-zinsser-in-5-minutes-d15e45b9501d" target="_blank" rel="noopener noreferrer">On Writing Well by William Zinsser in 5 minutes</a></li>
+                        <li><a href="https://medium.com/@blakefletcher/influence-by-robert-cialdini-in-5-minutes-66c26032df6b" target="_blank" rel="noopener noreferrer">Influence by Robert Cialdini in 5 minutes</a></li>
+                        <li><a href="https://medium.com/@blakefletcher/ego-is-the-enemy-by-ryan-holiday-in-5-minutes-8a22f98df1e3" target="_blank" rel="noopener noreferrer">Ego is the Enemy by Ryan Holiday in 5 minutes</a></li>
+                        <li><a href="https://medium.com/@blakefletcher/show-your-work-by-austin-kleon-in-5-minutes-fd3335c416bf" target="_blank" rel="noopener noreferrer">Show Your Work by Austin Kleon in 5 minutes</a></li>
+                        <li><a href="https://medium.com/@blakefletcher/how-to-fail-at-almost-everything-and-still-win-big-by-scott-adams-in-5-minutes-14cd829c9c8f" target="_blank" rel="noopener noreferrer">How to Fail at Almost Everything and Still Win Big by Scott Adams in 5 minutes</a></li>
+                        <li><a href="https://medium.com/@blakefletcher/the-inner-game-of-tennis-by-w-timothy-gallwey-in-5-minutes-d1696f432517" target="_blank" rel="noopener noreferrer">The Inner Game of Tennis by W. Timothy Gallwey in 5 minutes</a></li>
+                        <li><a href="https://medium.com/@blakefletcher/art-of-the-start-2-0-by-guy-kawasaki-in-4-minutes-a432f17cbc2f" target="_blank" rel="noopener noreferrer">The Art of the Start by Guy Kawasaki in 4 minutes</a></li>
+                        <li><a href="https://medium.com/@blakefletcher/pitch-anything-by-oren-klaff-in-6-minutes-216268baa8c3" target="_blank" rel="noopener noreferrer">Pitch Anything by Oren Klaff in 6 minutes</a></li>
+                        <li><a href="https://medium.com/@blakefletcher/rework-by-jason-fried-and-dhh-in-6-minutes-2857682ba98" target="_blank" rel="noopener noreferrer">Rework by Jason Fried and DHH in 6 minutes</a></li>
+                        <li><a href="https://medium.com/@blakefletcher/the-heros-journey-of-all-creative-people-b4d2e2bdc922" target="_blank" rel="noopener noreferrer">Ignore Everybody by Hugh MacLeod in 3 minutes</a></li>
+                    </ul>
                 </div>
             </div>
             <p className="say-hello">Say hello, I’d love to connect: <a href="mailto:blkfltchr@gmail.com" target="_blank" rel="noopener noreferrer">blkfltchr@gmail.com</a></p>

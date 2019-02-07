@@ -48,7 +48,7 @@ const HowToLearnReact = () => (
                     </div>
                     <div className="project-content">
                         <h4>How To Learn React</h4>
-                        <p>A project intended to share the things I learn while working with React. As I build things, complete tutorials, read articles, and watch videos, I add to the blog.</p>
+                        <p className="left-paragraph">A project intended to share the things I learn while working with React. As I build things, complete tutorials, read articles, and watch videos, I add to the blog.</p>
                         <div>
                             <img src={gatsby} alt="gatsby logo"/>
                             <img src={graphqllogo} alt="graphql logo"/>
