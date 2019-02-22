@@ -7,6 +7,7 @@ import HowToLearnReact from './projects/HowToLearnReact'
 import GoToRecipes from './projects/GoToRecipes'
 import LambdaTimeline from './projects/LambdaTimeline';
 import SpanishConjugator from './projects/SpanishConjugator';
+import LambdaSky from './projects/LambdaSky';
 
 const Projects = () => {
     return (
@@ -24,6 +25,7 @@ const Projects = () => {
                     <GoToRecipes />
                     <LambdaTimeline />
                     <SpanishConjugator />
+                    <LambdaSky />
                 </div>
             </div>
             <p className="say-hello">Say hello, I’d love to connect: <a href="mailto:blkfltchr@gmail.com" target="_blank" rel="noopener noreferrer">blkfltchr@gmail.com</a></p>
