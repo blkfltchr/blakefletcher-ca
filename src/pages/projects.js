@@ -21,10 +21,10 @@ const Projects = () => {
             <div className="projects-text">
                 <h2>Projects.</h2>
                 <div>
-                    <HowToLearnReact />
-                    <GoToRecipes />
-                    <LambdaTimeline />
                     <SpanishConjugator />
+                    <HowToLearnReact />
+                    <LambdaTimeline />
+                    <GoToRecipes />
                     <LambdaSky />
                 </div>
             </div>
