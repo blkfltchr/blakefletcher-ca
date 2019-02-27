@@ -46,7 +46,7 @@ const SpanishConjugator = () => (
                     <div className="project-content">
                         <h4>Spanish Conjugator</h4>
                         <p>Built with <a href="https://github.com/nickoferrall" style={{color: 'blue', fontWeight: 'bold'}} target="_blank" rel="noopener noreferrer">Nick O'Ferrall</a></p>
-                        <p className="left-paragraph">This app is intended to help me learn Spanish and programming in unison. It will morph into a suite of language learning tools. I built it during my time in Medellín, Colombia while working for Lambda School.</p>
+                        <p className="left-paragraph">A Spanish language learning tool for verb practice. Built during my time in Medellín, Colombia while working for Lambda School. It allowed me to develop my Spanish and programming skills in unison.</p>
                         <div>
                             <img src={react} alt="react logo"/>
                             <img src={styled} title="Styled Components" alt="styled logo"/>
@@ -62,7 +62,7 @@ const SpanishConjugator = () => (
                             </a>
                             <a 
                                 className="project-button"
-                                href="https://spanish-conjugator.netlify.com/" 
+                                href="https://www.conjugator.io/" 
                                 target="_blank" 
                                 rel="noopener noreferrer">
                                 Website
