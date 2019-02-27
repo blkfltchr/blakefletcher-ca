@@ -3,7 +3,10 @@ import '../../css/project-styles.css'
 import {StaticQuery, graphql} from 'gatsby'
 import Img from 'gatsby-image'
 import react from '../../images/react-logo-rectangle.png'
-import styled from '../../images/styled-logo-square.png'
+import graphqllogo from '../../images/graphql-logo-rectangle.png'
+import emotion from '../../images/emotion-logo-square.png'
+import postgreSQLlogo from '../../images/postgreSQL-logo-rectangle.png'
+
 
 const SpanishConjugator = () => (
 
@@ -49,7 +52,8 @@ const SpanishConjugator = () => (
                         <p className="left-paragraph">A Spanish language learning tool for verb practice. Built during my time in Medellín, Colombia while working for Lambda School. It allowed me to develop my Spanish and programming skills in unison.</p>
                         <div>
                             <img src={react} alt="react logo"/>
-                            <img src={styled} title="Styled Components" alt="styled logo"/>
+                            <img src={emotion} title="Emotion" alt="emotion logo"/>    <img src={postgreSQLlogo} alt="graphql logo"/>
+                            <img src={graphqllogo} alt="graphql logo"/>
                         </div>
                     </div>
                     <div>

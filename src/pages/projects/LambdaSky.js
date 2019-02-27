@@ -3,6 +3,9 @@ import '../../css/project-styles.css'
 import {StaticQuery, graphql} from 'gatsby'
 import Img from 'gatsby-image'
 import react from '../../images/react-logo-rectangle.png'
+import materialui from '../../images/materialui-logo-square.png'
+import mongodb from '../../images/mongodb-logo-rectangle.png'
+import node from '../../images/node-logo-rectangle.png'
 
 const LambdaSky = () => (
 
@@ -48,6 +51,9 @@ const LambdaSky = () => (
                         <p className="left-paragraph">A travel app built in a team of 8. Users can book trips (hotels, car rentals, flights, and other activities.). I lead the backend team in implementing a database, authentication / authorization, a payment method, using MongoDB, OAuth, Stripe, and more.</p>
                         <div>
                             <img src={react} alt="react logo"/>
+                            <img src={node} alt="node logo"/>
+                            <img src={mongodb} alt="mongodb logo"/>
+                            <img src={materialui} alt="material ui logo"/>
                         </div>
                     </div>
                     <div>
