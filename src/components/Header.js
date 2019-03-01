@@ -33,7 +33,7 @@ class Header extends React.Component {
                     <div><Link className="nav-link" to="/experience"><span role="img" aria-label="backpack">🎒</span> Experience</Link></div>
                     <div><Link className="nav-link" to="/writing"><span role="img" aria-label="notebook">📓</span> Writing</Link></div>
                     <div><Link className="nav-link" to="/books"><span role="img" aria-label="books">📚</span> Books</Link></div>
-                    <div><a className="nav-link" href="https://drive.google.com/file/d/1_5kFgPAO0lXPWJ8WX56I3x0cdMYdlM7_/view" target="_blank" rel="noopener noreferrer"><span role="img" aria-label="briefcase">💼</span> Resume</a></div>
+                    <div><a className="nav-link" href="https://drive.google.com/file/d/1GbXoDp10LpYzTBs_3JXPHrT-wBPF04Gk/view?usp=sharing" target="_blank" rel="noopener noreferrer"><span role="img" aria-label="briefcase">💼</span> Resume</a></div>
                     <div><Link className="nav-link" to="/contact"><span role="img" aria-label="envelope">✉️</span> Contact</Link></div>
                 </div>
                 <div><button className="burger" onClick={this.handleToggleMenu}>
