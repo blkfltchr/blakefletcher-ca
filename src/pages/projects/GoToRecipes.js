@@ -36,18 +36,17 @@ const GoToRecipes = () => (
                                 rel="noopener noreferrer">
                                 Code
                             </a>
-                            {/* <a 
+                            <a 
                                 className="project-button" 
-                                href="https://www.gotorecipes.firebaseapp.com/" 
+                                href="https://gotorecipes-b3714.firebaseapp.com/" 
                                 target="_blank" 
                                 rel="noopener noreferrer">
                                 Website
-                            </a> */}
+                            </a>
                         </div>
                     </div>
                     <div className="project-content">
                         <h4>GoToRecipes</h4>
-                        <p style={{fontFamily: "Lato,Helvetica,Arial,Lucida,sans-serif"}}><span style={{fontStyle: "italic"}}>Under construction</span> <span role="img" aria-label="construction sign">🚧</span></p>
                         <p>Built with <a href="https://github.com/eddygonzalez9708" style={{color: 'blue', fontWeight: 'bold'}} target="_blank" rel="noopener noreferrer">Edward Gonzalez</a></p>
                         <p className="left-paragraph">A simple recipe tracker for people who don't know what to eat today. Built with React and Redux for the front end and Firebase for authentication, database and hosting.</p>
                         <div>
@@ -65,13 +64,13 @@ const GoToRecipes = () => (
                                 rel="noopener noreferrer">
                                 Code
                             </a>
-                            {/* <a 
+                            <a 
                                 className="project-button"
-                                href="https://www.gotorecipes.firebaseapp.com/" 
+                                href="https://gotorecipes-b3714.firebaseapp.com/" 
                                 target="_blank" 
                                 rel="noopener noreferrer">
                                 Website
-                            </a> */}
+                            </a>
                         </div>
                 </div>
             )
