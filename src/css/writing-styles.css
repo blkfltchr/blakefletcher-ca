@@ -29,7 +29,7 @@
 .blogpost-link h2 {
     font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
     font-size: 1.4rem;
-    color: blue;
+    color: darkorchid;
     text-decoration: underline;
 }
 
@@ -45,5 +45,5 @@
 }
 
 .say-hello a {
-    color: blue;
+    color: darkorchid;
 }

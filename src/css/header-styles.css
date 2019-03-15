@@ -22,12 +22,12 @@
 
 .nav-links a {
     text-decoration: none;
-    color: blue;
+    color: darkorchid;
 }
 
 .nav-links div {
     text-decoration: none;
-    color: blue;
+    color: darkorchid;
 }
 
 .nav-link {
@@ -35,7 +35,7 @@
 }
 
 .nav-link:hover {
-    border-bottom: 1.5px solid blue;
+    border-bottom: 1.5px solid darkorchid;
 }
 
 /* Responsive menu styles */

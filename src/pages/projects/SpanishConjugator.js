@@ -48,7 +48,7 @@ const SpanishConjugator = () => (
                     </div>
                     <div className="project-content">
                         <h4>Spanish Conjugator</h4>
-                        <p>Built with <a href="https://github.com/nickoferrall" style={{color: 'blue', fontWeight: 'bold'}} target="_blank" rel="noopener noreferrer">Nick O'Ferrall</a></p>
+                        <p>Built with <a href="https://github.com/nickoferrall" style={{color: 'darkorchid', fontWeight: 'bold'}} target="_blank" rel="noopener noreferrer">Nick O'Ferrall</a></p>
                         <p className="left-paragraph">A Spanish language learning tool for verb practice. Built during my time in Medellín, Colombia while working for Lambda School. It allowed me to develop my Spanish and programming skills in unison.</p>
                         <div>
                             <img src={react} alt="react logo"/>

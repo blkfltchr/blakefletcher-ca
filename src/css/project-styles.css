@@ -23,7 +23,7 @@
 }
 
 .say-hello a {
-    color: blue;
+    color: darkorchid;
 }
 
 /* Project card styles */
@@ -92,13 +92,13 @@
 }
 
 .project-button {
-    background-color: blue;
+    background-color: darkorchid;
     color: white;
     font-size: 1.1rem;
     padding: 5px;
     margin: 5px 5px 10px 5px;
     border-radius: 5px;
-    border: solid 2px blue;
+    border: solid 2px darkorchid;
     font-weight: bold;
     text-decoration: none;
     font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
@@ -107,7 +107,7 @@
 
 .project-button:hover {
     background-color: white;
-    color: blue;
+    color: darkorchid;
 }
 
 /* Project content (text and tech images) */
