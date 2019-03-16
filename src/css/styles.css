@@ -6,6 +6,11 @@ h2 {
   text-align: center;
 }
 
+p {
+  font-family: Merriweather, Georgia, Times New Roman, serif;
+  font-size: 1.5rem;
+}
+
 /* Header styles */
 
 .bf-logo {
@@ -122,6 +127,7 @@ button:focus {
 .footer-wrapper div {
   display: flex;
   justify-content: center;
+  margin: 0.5rem;
 }
 
 .footer-wrapper a {
@@ -156,11 +162,6 @@ button:focus {
   }
 }
 
-.index-text p {
-  font-family: Merriweather, Georgia, Times New Roman, serif;
-  font-size: 1.5rem;
-}
-
 .index-text a {
   color: darkorchid;
 }
@@ -186,16 +187,6 @@ button:focus {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-}
-
-.say-hello {
-  font-family: Merriweather, Georgia, Times New Roman, serif;
-  font-size: 1.5rem;
-  text-align: center;
-}
-
-.say-hello a {
-  color: darkorchid;
 }
 
 /* Project card styles */
@@ -333,12 +324,6 @@ button:focus {
   margin: 1.5rem 0 2rem 0
 }
 
-.experience-wrapper p {
-  font-family: Merriweather, Georgia, Times New Roman, serif;
-  font-size: 1.5rem;
-  text-align: center;
-}
-
 @media screen and (max-width: 768px) {
   .experience-wrapper div {
       width: 80vw;
@@ -353,16 +338,6 @@ button:focus {
   .experience-img {
       width: 80vw;
   }
-}
-
-.say-hello {
-  font-family: Merriweather, Georgia, Times New Roman, serif;
-  font-size: 1.5rem;
-  text-align: center;
-}
-
-.say-hello a {
-  color: darkorchid;
 }
 
 /* Exp styles */
@@ -421,28 +396,12 @@ button:focus {
   font-size: 1.1rem;
 }
 
-.say-hello {
-  font-family: Merriweather, Georgia, Times New Roman, serif;
-  font-size: 1.5rem;
-  text-align: center;
-}
-
-.say-hello a {
-  color: darkorchid;
-}
-
 /* Books styles */
 
 .books-wrapper {
   margin: 0 auto;
   text-align: center;
   width: 80vw;
-}
-
-.books-container p {
-  font-family: Merriweather, Georgia, Times New Roman, serif;
-  font-size: 1.5rem;
-  text-align: center;
 }
 
 .books-container div {
@@ -538,16 +497,6 @@ button:focus {
   font-weight: bold;
   text-decoration: none;
   font-family: Lato, Helvetica, Arial, Lucida, sans-serif
-}
-
-.say-hello {
-  font-family: Merriweather, Georgia, Times New Roman, serif;
-  font-size: 1.5rem;
-  text-align: center;
-}
-
-.say-hello a {
-  color: darkorchid;
 }
   
   /* Post styles */

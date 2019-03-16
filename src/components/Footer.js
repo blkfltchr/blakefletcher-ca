@@ -11,7 +11,7 @@ import instagram from '../images/instagram-logo.png'
 const Footer = () => {
     return (
         <div className="footer-wrapper">
-            <p>You can find me elsewhere:</p>
+            <div>You can find me elsewhere:</div>
             <div>
                 <ul>
                     <a href="https://www.goodreads.com/user/show/46248158-blake-fletcher" target="_blank" rel="noopener noreferrer"><li>tracking what I read on <span>goodreads</span>;</li></a>
@@ -35,8 +35,8 @@ const Footer = () => {
                 <a href="https://twitter.com/blkfltchr" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="twitter logo"/></a>
                 <a href="https://www.instagram.com/blkfltchr/" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="instagram logo"/></a>
             </div>
-            <p>blakefletcher.ca v.3.1.0</p>
-            <p><a href="https://github.com/blkfltchr/blakefletcher-ca" target="_blank" rel="noopener noreferrer">Github Repo</a></p>
+            <div>blakefletcher.ca v.3.1.0</div>
+            <div><a href="https://github.com/blkfltchr/blakefletcher-ca" target="_blank" rel="noopener noreferrer">Github Repo</a></div>
         </div>
     )
 }
