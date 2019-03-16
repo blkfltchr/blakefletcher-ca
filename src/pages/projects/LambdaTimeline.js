@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../css/project-styles.css'
+import '../../css/styles.css'
 import {StaticQuery, graphql} from 'gatsby'
 import Img from 'gatsby-image'
 import flutter from '../../images/flutter-logo-rectangle.png'

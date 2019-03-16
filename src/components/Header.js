@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'gatsby'
-import '../css/header-styles.css'
+import '../css/styles.css'
 import logo from '../images/bf-logo.jpg'
 
 class Header extends React.Component {

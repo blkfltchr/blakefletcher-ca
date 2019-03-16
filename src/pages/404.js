@@ -1,5 +1,5 @@
 import React from "react";
-import '../css/error-styles.css'
+import '../css/styles.css'
 import {Link} from 'gatsby'
 
 const Error = () => {

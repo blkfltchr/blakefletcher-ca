@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import '../css/postpage-styles.css'
+import '../css/styles.css'
 import {graphql} from 'gatsby'
 import Header from '../components/Header'
 import Footer from '../components/Footer'

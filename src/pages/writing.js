@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/writing-styles.css'
+import '../css/styles.css'
 import {Link, graphql} from 'gatsby'
 import {Helmet} from 'react-helmet'
 import Header from '../components/Header'

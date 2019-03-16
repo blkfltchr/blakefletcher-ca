@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../css/project-styles.css'
+import '../../css/styles.css'
 import {StaticQuery, graphql} from 'gatsby'
 import Img from 'gatsby-image'
 import react from '../../images/react-logo-rectangle.png'
