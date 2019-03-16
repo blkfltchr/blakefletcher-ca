@@ -1,5 +1,11 @@
 /* Global styles */
 
+h2 {
+  font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
 /* Header styles */
 
 .bf-logo {
@@ -150,12 +156,6 @@ button:focus {
   }
 }
 
-.index-text h2 {
-  font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
-  font-size: 2rem;
-  text-align: center;
-}
-
 .index-text p {
   font-family: Merriweather, Georgia, Times New Roman, serif;
   font-size: 1.5rem;
@@ -180,11 +180,6 @@ button:focus {
 .projects-text {
   height: 100%;
   text-align: center;
-}
-
-.projects-text h2 {
-  font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
-  font-size: 2rem;
 }
 
 .projects-text div {
@@ -329,11 +324,6 @@ button:focus {
   text-align: center;
 }
 
-.experience-wrapper h2 {
-  font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
-  font-size: 2rem;
-}
-
 .experience-wrapper div {
   margin: 0 auto;
   width: 60vw;
@@ -403,11 +393,6 @@ button:focus {
   text-align: center;
 }
 
-.writing-title h2 {
-  font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
-  font-size: 2rem;
-}
-
 .blogpost-link {
   color: black;
   text-decoration: none;
@@ -424,7 +409,7 @@ button:focus {
   }
 }
 
-.blogpost-link h2 {
+.blogpost-link h4 {
   font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
   font-size: 1.4rem;
   color: darkorchid;
@@ -452,11 +437,6 @@ button:focus {
   margin: 0 auto;
   text-align: center;
   width: 80vw;
-}
-
-.books-wrapper h2 {
-  font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
-  font-size: 2rem;
 }
 
 .books-container p {
@@ -510,11 +490,6 @@ button:focus {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.contact-wrapper h2 {
-  font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
-  font-size: 2rem;
 }
 
 .form-input-wrapper {
@@ -645,11 +620,6 @@ button:focus {
 .postpage-wrapper h1 {
   font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
   font-size: 2.4rem;
-}
-
-.postpage-wrapper h2 {
-  font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
-  font-size: 1.8em;
 }
 
 .postpage-date {

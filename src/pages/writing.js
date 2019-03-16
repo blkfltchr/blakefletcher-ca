@@ -24,7 +24,7 @@ import Footer from '../components/Footer'
                     return (
                         <Link className="blogpost-link" to={frontmatter.path}>
                             <div key={frontmatter.path}>
-                                <h2>{frontmatter.title}</h2>
+                                <h4>{frontmatter.title}</h4>
                                 <p>{frontmatter.date}</p>
                                 <p>{frontmatter.description}</p>
                             </div>
