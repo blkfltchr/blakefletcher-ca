@@ -25,7 +25,7 @@ class Header extends React.Component {
 
     render() {
         return (
-            <div style={{height: "70px"}}>
+            <div className="navbar">
                 <Link to="/"><img src={logo} alt="BlakeFletcher.ca logo" className="bf-logo"/></Link>
                 <div className={this.state.menuClassName}>
                     <div><Link className="nav-link" to="/"><span role="img" aria-label="house">🏠</span> Home</Link></div>

@@ -1,5 +1,10 @@
 /* Global styles */
 
+body {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
 h2 {
   font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
   font-size: 2rem;
@@ -8,7 +13,6 @@ h2 {
 
 p {
   font-family: Merriweather, Georgia, Times New Roman, serif;
-  font-size: 1.5rem;
 }
 
 a {
@@ -18,21 +22,23 @@ a {
 
 /* Header styles */
 
+.navbar {
+  height: 4rem;
+}
+
 .bf-logo {
   height: 4rem;
   position: absolute;
   top: 12px;
-  left: 6px;
-  z-index: 150;
+  z-index: 100;
 }
 
 .nav-links {
   position: absolute;
   top: 12px;
   right: 12px;
-  height: 3rem;
+  height: 4rem;
   font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
-  font-size: 1.2rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -50,10 +56,8 @@ a {
 
 .burger {
   display: none;
-  color: black !important;
-  background-color: white;
+  color: black;
   border: none;
-  text-decoration: none;
   z-index: 150;
 }
 
@@ -63,7 +67,6 @@ a {
   background-color: black;
   margin: 6px 0;
   border-radius: 2px;
-  z-index: 100;
 }
 
 @media screen and (max-width: 850px) {
@@ -87,7 +90,6 @@ a {
       height: 400px;
       flex-direction: column;
       justify-content: space-evenly;
-      align-items: center;
       border-bottom: solid 2px lightgrey;
       z-index: 50;
   }
@@ -102,7 +104,7 @@ a {
   }
 }
 
-button:focus {
+.burger:focus {
   outline: 0;
 }
 
@@ -110,13 +112,8 @@ button:focus {
 
 .footer-wrapper {
   font-family: Merriweather, Georgia, Times New Roman, serif; 
-  font-size: 1.2rem; 
   background-color: #f6f9fc; 
   padding: 0.5rem 0;
-}
-
-.footer-wrapper p {
-  text-align: center;
 }
 
 .footer-wrapper div {
@@ -140,6 +137,10 @@ button:focus {
 .index-text {
   margin: 0 auto;
   width: 60vw;
+}
+
+.index-text p {
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -197,7 +198,6 @@ button:focus {
 
 .project-card {
   font-family: Merriweather, Georgia, Times New Roman, serif;
-  font-size: 1.2rem;
   position: relative;
 
 }
@@ -235,7 +235,6 @@ button:focus {
 .project-button {
   background-color: darkorchid;
   color: white;
-  font-size: 1.1rem;
   padding: 5px;
   margin: 5px 5px 10px 5px;
   border-radius: 5px;
@@ -266,7 +265,6 @@ button:focus {
 
 .project-content p {
   font-family: Merriweather, Georgia, Times New Roman, serif;
-  font-size: 1.1rem;
   margin-top: 0;
 }
 
@@ -327,7 +325,6 @@ button:focus {
 
 .exp p {
   font-family: Merriweather, Georgia, Times New Roman, serif;
-  font-size: 1.1rem;
   text-align: center;
 }
 
@@ -371,7 +368,6 @@ button:focus {
 
 .blogpost-link p {
   font-family: Merriweather, Georgia, Times New Roman, serif;
-  font-size: 1.1rem;
 }
 
 /* Books styles */
@@ -380,6 +376,10 @@ button:focus {
   margin: 0 auto;
   text-align: center;
   width: 80vw;
+}
+
+.books-wrapper p {
+  font-size: 1.5rem;
 }
 
 .books-container div {
@@ -485,7 +485,6 @@ button:focus {
 
 .markdown p {
   font-family: Merriweather, Georgia, Times New Roman, serif;
-  font-size: 1.1rem;
 }
 
 .markdown img {
