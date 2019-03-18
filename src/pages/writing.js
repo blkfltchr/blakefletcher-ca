@@ -16,22 +16,22 @@ import Footer from '../components/Footer'
                     <link rel="canonical" href="https://www.blakefletcher.ca/writing" />
                 </Helmet>
                 <Header />
-                <div className="writing-title">
+                <div className="page-wrapper">
                     <h2>Writing.</h2>
+                    {edges.map(edge => {
+                        const {frontmatter} = edge.node
+                        return (
+                            <Link className="blogpost-link" to={frontmatter.path}>
+                                <div key={frontmatter.path}>
+                                    <h4>{frontmatter.title}</h4>
+                                    <p>{frontmatter.date}</p>
+                                    <p>{frontmatter.description}</p>
+                                </div>
+                            </Link>
+                        )
+                    })}
+                    <p className="say-hello">Say hello, I’d love to connect: <a href="mailto:blkfltchr@gmail.com" target="_blank" rel="noopener noreferrer">blkfltchr@gmail.com</a></p>
                 </div>
-                {edges.map(edge => {
-                    const {frontmatter} = edge.node
-                    return (
-                        <Link className="blogpost-link" to={frontmatter.path}>
-                            <div key={frontmatter.path}>
-                                <h4>{frontmatter.title}</h4>
-                                <p>{frontmatter.date}</p>
-                                <p>{frontmatter.description}</p>
-                            </div>
-                        </Link>
-                    )
-                })}
-                <p className="say-hello">Say hello, I’d love to connect: <a href="mailto:blkfltchr@gmail.com" target="_blank" rel="noopener noreferrer">blkfltchr@gmail.com</a></p>
             </div>
             <Footer />
         </div>

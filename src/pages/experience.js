@@ -18,15 +18,15 @@ const Experience = () => {
                 <link rel="canonical" href="https://www.blakefletcher.ca/experience" />
             </Helmet>
             <Header />
-            <div className="experience-wrapper">
+            <div className="page-wrapper">
                 <h2>Experience.</h2>
                 <div>
                     <Lambda />
-                    <hr/>
+                    <hr className="page-break"/>
                     <Pluto />
-                    <hr/>
+                    <hr className="page-break"/>
                     <Mighty />
-                    <hr/>
+                    <hr className="page-break"/>
                     <Sprout />
                 </div>
             </div>

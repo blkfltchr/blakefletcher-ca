@@ -20,6 +20,23 @@ a {
   text-decoration: none;
 }
 
+.say-hello {
+  font-family: Merriweather, Georgia, Times New Roman, serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.page-wrapper {
+  margin: 0 auto;
+  width: 60vw;
+}
+
+@media screen and (max-width: 768px) {
+  .page-wrapper {
+    width: 80vw;
+  }
+}
+
 /* Header styles */
 
 .navbar {
@@ -134,25 +151,8 @@ a {
 
 /* Homepage styles */
 
-.index-text {
-  margin: 0 auto;
-  width: 60vw;
-}
-
-.index-text p {
+.homepage-paragraph {
   font-size: 1.5rem;
-}
-
-@media screen and (max-width: 768px) {
-  .index-text {
-      width: 80vw;
-  }
-}
-
-.say-hello {
-  font-family: Merriweather, Georgia, Times New Roman, serif;
-  font-size: 1.5rem;
-  text-align: center;
 }
 
 /* Projects styles */
@@ -286,34 +286,8 @@ a {
 
 /* Experience styles */
 
-.experience-wrapper {
-  height: 100%;
-  text-align: center;
-}
-
-.experience-wrapper div {
-  margin: 0 auto;
-  width: 60vw;
-}
-
-.experience-wrapper hr {
+.page-break {
   margin: 1.5rem 0 2rem 0
-}
-
-@media screen and (max-width: 768px) {
-  .experience-wrapper div {
-      width: 80vw;
-  }
-}
-
-.experience-img {
-  width: 60vw;
-}
-
-@media screen and (max-width: 768px) {
-  .experience-img {
-      width: 80vw;
-  }
 }
 
 /* Exp styles */
@@ -321,6 +295,7 @@ a {
 .exp h4 {
   font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
   font-size: 1.4rem;
+  text-align: center;
 }
 
 .exp p {
@@ -338,25 +313,9 @@ a {
 
 /* Writing styles */
 
-.writing-title {
-  height: 100%;
-  text-align: center;
-}
-
 .blogpost-link {
   color: black;
   text-decoration: none;
-}
-
-.blogpost-link div {
-  width: 60vw;
-  margin: 0 auto;
-}
-
-@media screen and (max-width: 768px) {
-  .blogpost-link div {
-      width: 80vw;
-  }
 }
 
 .blogpost-link h4 {
@@ -366,20 +325,16 @@ a {
   text-decoration: underline;
 }
 
-.blogpost-link p {
-  font-family: Merriweather, Georgia, Times New Roman, serif;
-}
-
 /* Books styles */
 
 .books-wrapper {
   margin: 0 auto;
-  text-align: center;
   width: 80vw;
 }
 
 .books-wrapper p {
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .books-container div {
@@ -406,6 +361,7 @@ a {
 .book-notes {
   font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
   list-style: none;
+  text-align: center;
 }
 
 .book-notes li {
@@ -531,23 +487,12 @@ a {
 
 /* Blog post styles */
 
-.postpage-wrapper {
-  width: 60vw;
-  margin: 0 auto;
-}
-
-@media screen and (max-width: 768px) {
-  .postpage-wrapper {
-      width: 80vw;
-  }
-}
-
-.postpage-wrapper h1 {
+.blogpost-title {
   font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
   font-size: 2.4rem;
 }
 
-.postpage-date {
+.blogpost-date {
   font-family: Merriweather, Georgia, Times New Roman, serif;
   font-size: 1.4rem;
   font-style: italic;
