@@ -37,6 +37,25 @@ a {
   }
 }
 
+.purple-button {
+  background-color: darkorchid;
+  color: white;
+  padding: 5px;
+  margin: 5px 5px 10px 5px;
+  border-radius: 5px;
+  border: solid 2px darkorchid;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
+  height: 21px;
+  width: 100px;
+}
+
+.purple-button:hover {
+  background-color: white;
+  color: darkorchid;
+}
+
 /* Header styles */
 
 .navbar {
@@ -194,12 +213,9 @@ a {
 
 }
 
-/* Project card (image with buttons) styles */
-
 .project-card {
   font-family: Merriweather, Georgia, Times New Roman, serif;
   position: relative;
-
 }
 
 .project-card-img {
@@ -230,24 +246,6 @@ a {
 
 .project-card:hover .project-buttons {
   opacity: 1;
-}
-
-.project-button {
-  background-color: darkorchid;
-  color: white;
-  padding: 5px;
-  margin: 5px 5px 10px 5px;
-  border-radius: 5px;
-  border: solid 2px darkorchid;
-  font-weight: bold;
-  text-decoration: none;
-  font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
-  height: 21px;
-}
-
-.project-button:hover {
-  background-color: white;
-  color: darkorchid;
 }
 
 /* Project content (text and tech images) */
@@ -474,15 +472,10 @@ a {
   padding: 1em 1.5em;
   display: block;
   white-space: pre-wrap;
-  /* css-3 */
   white-space: -moz-pre-wrap;
-  /* Mozilla, since 1999 */
   white-space: -pre-wrap;
-  /* Opera 4-6 */
   white-space: -o-pre-wrap;
-  /* Opera 7 */
   word-wrap: break-word;
-  /* Internet Explorer 5.5+ */
 }
 
 /* Blog post styles */
@@ -501,15 +494,12 @@ a {
 
 /* Success and error styles */
 
-/* Error page styles */
-
-.error-styles {
-  display: flex; 
-  flex-direction: column; 
-  align-items: center;
+.success-error {
+  text-align: center;
+  font-family: Raleway, sans-serif; 
 }
 
-.error-styles h1 {
+.success-error h1 {
   font-family: Monaco,Consolas, 'Andale  Mono', 'DejaVu Sans Mono', monospace; 
   font-size: 168px; 
   margin: 0px; 
@@ -517,29 +507,21 @@ a {
   text-transform: uppercase;
 }
 
-.error-styles h2 {
+.success-error p {
   font-family: Raleway, sans-serif; 
   font-size: 22px; 
   font-weight: 400; 
   text-transform: uppercase; 
   color: #222; 
-  margin: 0;
 }
 
-.first-error-link {
-  font-family: Raleway, sans-serif; 
-  font-size: 22px; 
+.success-error div {
   font-weight: 700; 
   color: darkorchid; 
-  margin: 0; 
-  text-decoration: none;
+  font-size: 22px; 
 }
 
-.second-error-link {
+.homepage-link {
   color: #a9a9a9;
-  font-family: Raleway, sans-serif; 
-  display: inline-block; 
   font-weight: 700; 
-  border-radius: 15px; 
-  text-decoration: none;
 }

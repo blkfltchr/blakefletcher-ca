@@ -4,13 +4,13 @@ import {Link} from 'gatsby'
 
 const Error = () => {
     return ( 
-        <div className="error-styles">
+        <div className="success-error">
             <h1>404</h1>
-            <h2>OOPS, THE PAGE YOU ARE LOOKING FOR CAN'T BE FOUND!</h2>
+            <p>OOPS, THE PAGE YOU ARE LOOKING FOR CAN'T BE FOUND!</p>
             <br />
-            <Link to="/books" className="first-error-link"><div>Books <span role="img" aria-label="books">📚</span></div></Link>
+            <Link to="/books"><div>Books <span role="img" aria-label="books">📚</span></div></Link>
             <br />
-            <Link to="/" className="second-error-link">← Return To Homepage</Link>
+            <Link to="/" className="homepage-link">← Return To Homepage</Link>
         </div>
      );
 }

@@ -30,14 +30,14 @@ const GoToRecipes = () => (
                         <Img className="project-card-img" sizes={data.file.childImageSharp.sizes} alt="gotorecipes logo"/>
                         <div className="project-buttons">
                             <a 
-                                className="project-button" 
+                                className="purple-button" 
                                 href="https://github.com/blkfltchr/gotorecipes" 
                                 target="_blank" 
                                 rel="noopener noreferrer">
                                 Code
                             </a>
                             <a 
-                                className="project-button" 
+                                className="purple-button" 
                                 href="https://gotorecipes-b3714.firebaseapp.com/" 
                                 target="_blank" 
                                 rel="noopener noreferrer">
@@ -58,14 +58,14 @@ const GoToRecipes = () => (
                     </div>
                     <div>
                             <a 
-                                className="project-button"
+                                className="purple-button"
                                 href="https://github.com/blkfltchr/gotorecipes" 
                                 target="_blank" 
                                 rel="noopener noreferrer">
                                 Code
                             </a>
                             <a 
-                                className="project-button"
+                                className="purple-button"
                                 href="https://gotorecipes-b3714.firebaseapp.com/" 
                                 target="_blank" 
                                 rel="noopener noreferrer">
