@@ -343,8 +343,8 @@ a {
 }
 
 .books-container img {
-  height: 333px;
-  width: 218px;
+  height: 200px;
+  width: 131px;
   margin: 1rem;
   -webkit-transition: margin 0.25s ease-out;
   -moz-transition: margin 0.25s ease-out;

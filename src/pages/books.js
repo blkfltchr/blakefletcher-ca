@@ -51,7 +51,7 @@ const Books = () => {
             <div className="books-wrapper">
                 <h2>Books.</h2>
                 <div className="books-container">
-                    <p>These are the books I've read, again and again.</p>
+                    <p>These are the books I've read, over and over again.</p>
                     <div>
                         <a href="https://www.goodreads.com/book/show/81948.The_E_Myth_Revisited" target="_blank" rel="noopener noreferrer"><img src={emyth} alt="e myth revisited"/></a>
                         <a href="https://www.goodreads.com/book/show/375802.Ender_s_Game" target="_blank" rel="noopener noreferrer"><img src={enders} alt="enders game"/></a>
@@ -65,7 +65,7 @@ const Books = () => {
                         <a href="https://www.goodreads.com/book/show/211099.Losing_My_Virginity" target="_blank" rel="noopener noreferrer"><img src={virginity} alt="losing my virginity"/></a>
                         <a href="https://www.goodreads.com/book/show/629.Zen_and_the_Art_of_Motorcycle_Maintenance" target="_blank" rel="noopener noreferrer"><img src={zen} alt="zen and the art of motorcycle maintenance"/></a>
                     </div>
-                    <p>These are some of the notes I've taken from some of the books I've read.</p>
+                    {/* <p>These are some of the notes I've taken from some of the books I've read.</p>
                     <ul className="book-notes">
                         <li><a href="https://medium.com/@blakefletcher/on-writing-well-by-william-zinsser-in-5-minutes-d15e45b9501d" target="_blank" rel="noopener noreferrer">On Writing Well by William Zinsser in 5 minutes</a></li>
                         <li><a href="https://medium.com/@blakefletcher/influence-by-robert-cialdini-in-5-minutes-66c26032df6b" target="_blank" rel="noopener noreferrer">Influence by Robert Cialdini in 5 minutes</a></li>
@@ -77,7 +77,7 @@ const Books = () => {
                         <li><a href="https://medium.com/@blakefletcher/pitch-anything-by-oren-klaff-in-6-minutes-216268baa8c3" target="_blank" rel="noopener noreferrer">Pitch Anything by Oren Klaff in 6 minutes</a></li>
                         <li><a href="https://medium.com/@blakefletcher/rework-by-jason-fried-and-dhh-in-6-minutes-2857682ba98" target="_blank" rel="noopener noreferrer">Rework by Jason Fried and DHH in 6 minutes</a></li>
                         <li><a href="https://medium.com/@blakefletcher/the-heros-journey-of-all-creative-people-b4d2e2bdc922" target="_blank" rel="noopener noreferrer">Ignore Everybody by Hugh MacLeod in 3 minutes</a></li>
-                    </ul>
+                    </ul> */}
                     <p>These are the books I have not yet listed but have given a rating of 5/5.</p>
                     <div className="book-notes">
                         <a href="https://www.goodreads.com/book/show/36613747-how-to-change-your-mind" target="_blank" rel="noopener noreferrer"><img src={yourmind} alt="How to Change Your Mind by Michael Pollan"/></a>
