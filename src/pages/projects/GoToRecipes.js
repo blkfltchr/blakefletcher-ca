@@ -28,7 +28,7 @@ const GoToRecipes = () => (
                 <div className="project-card-wrapper">
                     <div className="project-card">
                         <Img className="project-card-img" sizes={data.file.childImageSharp.sizes} alt="gotorecipes logo"/>
-                        <div className="project-buttons">
+                        {/* <div className="project-buttons">
                             <a 
                                 className="purple-button" 
                                 href="https://github.com/blkfltchr/gotorecipes" 
@@ -43,11 +43,12 @@ const GoToRecipes = () => (
                                 rel="noopener noreferrer">
                                 Website
                             </a>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="project-content">
                         <h4>GoToRecipes</h4>
-                        <p>Built with <a href="https://github.com/eddygonzalez9708" style={{color: 'darkorchid', fontWeight: 'bold'}} target="_blank" rel="noopener noreferrer">Edward Gonzalez</a></p>
+                        <p>Built with <a href="https://github.com/eddygonzalez9708" 
+                        className="project-collaborator" target="_blank" rel="noopener noreferrer">Edward Gonzalez</a></p>
                         <p className="left-paragraph">A simple recipe tracker for people who don't know what to eat today. Built with React and Redux for the front end and Firebase for authentication, database and hosting.</p>
                         <div>
                             <img src={react} alt="react logo"/>

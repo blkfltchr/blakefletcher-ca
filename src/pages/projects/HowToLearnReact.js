@@ -29,7 +29,7 @@ const HowToLearnReact = () => (
                 <div className="project-card-wrapper">
                     <div className="project-card">
                         <Img className="project-card-img" sizes={data.file.childImageSharp.sizes} alt="howtolearnreact logo"/>
-                        <div className="project-buttons">
+                        {/* <div className="project-buttons">
                             <a 
                                 className="purple-button"
                                 href="https://github.com/blkfltchr/howtolearnreact" 
@@ -44,7 +44,7 @@ const HowToLearnReact = () => (
                                 rel="noopener noreferrer">
                                 Website
                             </a>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="project-content">
                         <h4>How To Learn React</h4>

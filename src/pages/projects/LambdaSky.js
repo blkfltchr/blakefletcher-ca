@@ -28,7 +28,7 @@ const LambdaSky = () => (
                 <div className="project-card-wrapper">
                     <div className="project-card">
                         <Img className="project-card-img" sizes={data.file.childImageSharp.sizes} alt="lambda sky screen"/>
-                        <div className="project-buttons">
+                        {/* <div className="project-buttons">
                             <a 
                                 className="purple-button"
                                 href="https://github.com/CarloC24/Lambda-sky" 
@@ -36,14 +36,14 @@ const LambdaSky = () => (
                                 rel="noopener noreferrer">
                                 Code
                             </a>
-                            {/* <a 
+                            <a 
                                 className="purple-button" 
                                 href="https://spanish-conjugator.netlify.com/" 
                                 target="_blank" 
                                 rel="noopener noreferrer">
                                 Website
-                            </a> */}
-                        </div>
+                            </a>
+                        </div> */}
                     </div>
                     <div className="project-content">
                         <h4>Lambda Sky</h4>

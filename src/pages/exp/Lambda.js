@@ -23,7 +23,7 @@ const Lambda = () => (
             data => (
                 <div className="exp">
                     <Img className="experience-img" sizes={data.file.childImageSharp.sizes} alt="lambda jumbo"/>
-                    <h4>Lambda School (<a href="https://lambdaschool.com/" target="_blank" rel="noopener noreferrer" style={{color: "darkorchid"}}>view site</a>)</h4>
+                    <h4>Lambda School (<a href="https://lambdaschool.com/" target="_blank" rel="noopener noreferrer">view site</a>)</h4>
                     <p className="left-paragraph">I started as a student at Lambda and decided to become a Project Manager to give back. The school has an amazing pay-it-forward culture that I help to uphold. Currently, I work as a PM for Lambda Next, the post grad portion of the school. I help graduates get the best job they've ever had.</p>
                     <p className="exp-dates">Project Manager, November 2018-Present</p>
                     <p className="exp-dates">Student, May 2018-November 2018</p>
