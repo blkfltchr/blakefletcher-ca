@@ -16,7 +16,7 @@ p {
 }
 
 a {
-  color: #0B6B8C;
+  color: #ff7f50;
   text-decoration: none;
 }
 
@@ -38,12 +38,12 @@ a {
 }
 
 .purple-button {
-  background-color: #0B6B8C;
+  background-color: #ff7f50;
   color: white;
   padding: 5px;
   margin: 5px 5px 10px 5px;
   border-radius: 5px;
-  border: solid 2px #0B6B8C;
+  border: solid 2px #ff7f50;
   font-weight: bold;
   text-decoration: none;
   font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
@@ -53,7 +53,7 @@ a {
 
 .purple-button:hover {
   background-color: white;
-  color: #0B6B8C;
+  color: #ff7f50;
 }
 
 /* Header styles */
@@ -85,7 +85,7 @@ a {
 }
 
 .nav-link:hover {
-  border-bottom: 1.5px solid #0B6B8C;
+  border-bottom: 1.5px solid #ff7f50;
 }
 
 /* Responsive menu styles */
@@ -283,7 +283,7 @@ a {
 }
 
 .project-collaborator {
-  color: #0B6B8C;
+  color: #ff7f50;
   font-weight: bold;
 }
 
@@ -324,7 +324,7 @@ a {
 .blogpost-link h4 {
   font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
   font-size: 1.4rem;
-  color: #0B6B8C;
+  color: #ff7f50;
   text-decoration: underline;
 }
 
@@ -423,13 +423,13 @@ a {
 }
 
 .contact-button {
-  background-color: #0B6B8C;
+  background-color: #ff7f50;
   color: white;
   font-size: 1.1rem;
   padding: 5px;
   margin: 5px 5px 10px 5px;
   border-radius: 5px;
-  border: solid 2px #0B6B8C;
+  border: solid 2px #ff7f50;
   font-weight: bold;
   text-decoration: none;
   font-family: Lato, Helvetica, Arial, Lucida, sans-serif
@@ -522,7 +522,7 @@ a {
 
 .success-error div {
   font-weight: 700; 
-  color: #0B6B8C; 
+  color: #ff7f50; 
   font-size: 22px; 
 }
 
