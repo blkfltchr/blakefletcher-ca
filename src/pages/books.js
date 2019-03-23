@@ -85,7 +85,7 @@ const Books = () => {
                         <a href="https://medium.com/@blakefletcher/art-of-the-start-2-0-by-guy-kawasaki-in-4-minutes-a432f17cbc2f" target="_blank" rel="noopener noreferrer"><img src={artofthestart} alt="The Art of the Start by Guy Kawasaki in 4 minutes"/></a>
                         <a href="https://medium.com/@blakefletcher/pitch-anything-by-oren-klaff-in-6-minutes-216268baa8c3" target="_blank" rel="noopener noreferrer"><img src={pitchanything} alt="Pitch Anything by Oren Klaff in 6 minutes"/></a>
                         <a href="https://medium.com/@blakefletcher/rework-by-jason-fried-and-dhh-in-6-minutes-2857682ba98" target="_blank" rel="noopener noreferrer"><img src={rework} alt="Rework by Jason Fried and DHH in 6 minutes"/></a>
-                        <a href="https://medium.com/@blakefletcher/the-heros-journey-of-all-creative-people-b4d2e2bdc922" target="_blank" rel="noopener noreferrer"><img src={ignore} alt="Ignore Everybody by Hugh MacLeod in 3 minutes"/></a> */}
+                        <a href="https://medium.com/@blakefletcher/the-heros-journey-of-all-creative-people-b4d2e2bdc922" target="_blank" rel="noopener noreferrer"><img src={ignore} alt="Ignore Everybody by Hugh MacLeod in 3 minutes"/></a>
                     </div>
                     <p>These are the books I have not yet listed but have given a rating of 5/5.</p>
                     <div className="book-notes">
