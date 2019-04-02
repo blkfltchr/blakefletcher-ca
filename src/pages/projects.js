@@ -8,6 +8,7 @@ import GoToRecipes from './projects/GoToRecipes'
 import LambdaTimeline from './projects/LambdaTimeline';
 import SpanishConjugator from './projects/SpanishConjugator';
 import LambdaSky from './projects/LambdaSky';
+import BookMaps from './projects/BookMaps';
 
 const Projects = () => {
     return (
@@ -22,6 +23,7 @@ const Projects = () => {
                 <h2>Projects.</h2>
                 <div>
                     <SpanishConjugator />
+                    <BookMaps />
                     <HowToLearnReact />
                     <LambdaTimeline />
                     <GoToRecipes />

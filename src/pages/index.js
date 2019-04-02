@@ -17,7 +17,7 @@ const index = () => {
             <div className="page-wrapper">
                 <h2>Hey! I'm Blake Fletcher.</h2>
                 <p className="homepage-paragraph">I like to find ways to connect technology to the things I love, like music, reading, learning, and connecting with others. I build things on the web, and tend to focus on front end, design, product, and sometimes growth. I enjoy teaming up with other makers like me.</p>
-                <p className="homepage-paragraph">Currently, I live in Toronto and work as a Project Manager for <a href="https://lambdaschool.com/" target="_blank" rel="noopener noreferrer">Lambda School</a>, helping graduates get the best jobs they've ever had.</p>
+                <p className="homepage-paragraph">Currently, I live in Toronto where I'm finishing up Lambda School, studying full stack web development, and working on my capstone, <a href="https://github.com/labs11-library" target="_blank" rel="noopener noreferrer">Book Maps</a>, a web app that helps neighbours share their book collections.</p>
                 <p className="homepage-paragraph">I want to talk to people about their big plans – their dreams – and how they hope to accomplish them. One day, I’d like to know how to build rocketships from scratch and fly them into outer space. That may or may not be a metaphor.</p>
             </div>
             <p className="say-hello">Say hello, I’d love to connect: <a href="mailto:blkfltchr@gmail.com" target="_blank" rel="noopener noreferrer">blkfltchr@gmail.com</a></p>
