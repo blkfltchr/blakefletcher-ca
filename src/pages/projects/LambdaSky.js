@@ -47,8 +47,7 @@ const LambdaSky = () => (
                     </div>
                     <div className="project-content">
                         <h4>Lambda Sky</h4>
-                        <p style={{fontFamily: "Lato,Helvetica,Arial,Lucida,sans-serif"}}><span style={{fontStyle: "italic"}}>Under construction</span> <span role="img" aria-label="construction sign">🚧</span></p>
-                        <p className="left-paragraph">A travel app built in a team of 8. Users can book trips (hotels, car rentals, flights, and other activities.). I lead the backend team in implementing a database, authentication / authorization, a payment method, using MongoDB, OAuth, Stripe, and more.</p>
+                        <p style={{fontFamily: "Lato,Helvetica,Arial,Lucida,sans-serif"}}><span style={{fontStyle: "italic"}}>Coming soon</span> <span role="img" aria-label="man with computer">👨‍💻</span></p>                        <p className="left-paragraph">A travel app built in a team of 8. Users can book trips (hotels, car rentals, flights, and other activities.). I lead the backend team in implementing a database, authentication / authorization, a payment method, using MongoDB, OAuth, Stripe, and more.</p>
                         <div>
                             <img src={react} alt="react logo"/>
                             <img src={node} alt="node logo"/>
