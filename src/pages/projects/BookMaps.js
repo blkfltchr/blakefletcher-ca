@@ -33,7 +33,7 @@ const BookMaps = () => (
                     <div className="project-content">
                         <h4>Book Maps</h4>
                         <p style={{fontFamily: "Lato,Helvetica,Arial,Lucida,sans-serif"}}><span style={{fontStyle: "italic"}}>Coming soon</span> <span role="img" aria-label="man with computer">👨‍💻</span></p>
-                        <p className="left-paragraph">A marketplace app that helps neighbours share their book collections. I'm working as a full stack developer, connecting the database, authentication / authorization, and chat, using PostgreSQL, OAuth, Twilio, and more.</p>
+                        <p className="left-paragraph">A peer-to-peer library app that helps neighbours to connect and share their books. I'm working as a full stack developer, connecting the database, authentication / authorization, integrating email and chat, using PostgreSQL, OAuth, Twilio, and more.</p>
                         <div>
                             <img src={react} alt="react logo"/>
                             <img src={redux} alt="redux logo"/>
