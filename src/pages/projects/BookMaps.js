@@ -31,9 +31,9 @@ const BookMaps = () => (
                         <Img className="project-card-img" sizes={data.file.childImageSharp.sizes} alt="book maps screen"/>
                     </div>
                     <div className="project-content">
-                        <h4>Book Maps</h4>
-                        <p style={{fontFamily: "Lato,Helvetica,Arial,Lucida,sans-serif"}}><span style={{fontStyle: "italic"}}>Coming soon</span> <span role="img" aria-label="man with computer">👨‍💻</span></p>
-                        <p className="left-paragraph">A peer-to-peer library app that helps neighbours to connect and share their books. I'm working as a full stack developer, connecting the database, authentication / authorization, integrating email and chat, using PostgreSQL, OAuth, Twilio, and more.</p>
+                        <h4>Bookmaps</h4>
+                        <p style={{width: "90%", margin: "0 auto 10px auto"}}>Built with <a href="https://github.com/Zooheck" className="project-collaborator" target="_blank" rel="noopener noreferrer">David Flack</a>, <a href="https://github.com/henron1" className="project-collaborator" target="_blank" rel="noopener noreferrer">Henry Neal</a>, <a href="https://github.com/JacobLayton" className="project-collaborator" target="_blank" rel="noopener noreferrer">Jacob Layton</a>, and <a href="https://github.com/sk-vojik" className="project-collaborator" target="_blank" rel="noopener noreferrer">Scott Vojik</a>.</p>
+                        <p className="left-paragraph">A peer-to-peer library app that helps neighbours share their books. I contributed across the full stack, connecting the database, authentication / authorization, integrating email and chat, using PostgreSQL, OAuth, Twilio, and more.</p>
                         <div>
                             <img src={react} alt="react logo"/>
                             <img src={redux} alt="redux logo"/>
@@ -50,13 +50,13 @@ const BookMaps = () => (
                                 rel="noopener noreferrer">
                                 Code
                             </a>
-                            {/* <a 
+                            <a 
                                 className="purple-button"
-                                href="https://spanish-conjugator.netlify.com/" 
+                                href="https://bookmaps.netlify.com/" 
                                 target="_blank" 
                                 rel="noopener noreferrer">
                                 Website
-                            </a> */}
+                            </a>
                         </div>
                 </div>
             )
