@@ -34,7 +34,7 @@ const Contact = () => (
                     <input className="contact-button" type="submit" value="Send Message"/>
                 </div>
             </form>
-            <p className="say-hello">I'm currently looking for opportunities as a full stack developer. Say hello, I’d love to connect: <a href="mailto:blkfltchr@gmail.com" target="_blank" rel="noopener noreferrer">blkfltchr@gmail.com</a></p>
+            <p className="say-hello"><b>I'm currently looking for opportunities as a full stack developer. Say hello, I’d love to connect: <a href="mailto:blkfltchr@gmail.com" target="_blank" rel="noopener noreferrer">blkfltchr@gmail.com</a></b></p>        
         </div>
         <Footer />
     </div>

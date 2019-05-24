@@ -62,10 +62,6 @@ const Books = () => {
             <div className="books-wrapper">
                 <h2>Books.</h2>
                 <div className="books-container">
-                    {/* <p>This is what I'm currently reading.</p>
-                    <div>
-                        
-                    </div> */}
                     <p>These are the books I read, over and over again.</p>
                     <div>
                         <a href="https://www.goodreads.com/book/show/81948.The_E_Myth_Revisited" target="_blank" rel="noopener noreferrer"><img src={emyth} alt="e myth revisited"/></a>
