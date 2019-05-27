@@ -27,22 +27,6 @@ const LambdaTimeline = () => (
                 <div className="project-card-wrapper">
                     <div className="project-card">
                         <Img className="project-card-img" sizes={data.file.childImageSharp.sizes} alt="lambdatimeline "/>
-                        {/* <div className="project-buttons">
-                            <a 
-                                className="purple-button"
-                                href="https://github.com/sagardesai90/LambdaTimeline" 
-                                target="_blank" 
-                                rel="noopener noreferrer">
-                                Code
-                            </a>
-                            <a 
-                                className="purple-button"
-                                href="https://www.youtube.com/watch?v=OR8S5wyyTlA" 
-                                target="_blank" 
-                                rel="noopener noreferrer">
-                                Video
-                            </a>
-                        </div> */}
                     </div>
                     <div className="project-content">
                         <h4>Lambda Timeline</h4>

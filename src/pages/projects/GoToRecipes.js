@@ -5,7 +5,6 @@ import Img from 'gatsby-image'
 import react from '../../images/react-logo-rectangle.png'
 import redux from '../../images/redux-logo-rectangle.png'
 import firebase from '../../images/firebase-logo-rectangle.png'
-import bootstrap from '../../images/bootstrap-logo-rectangle.png'
 
 const GoToRecipes = () => (
 
@@ -28,22 +27,6 @@ const GoToRecipes = () => (
                 <div className="project-card-wrapper">
                     <div className="project-card">
                         <Img className="project-card-img" sizes={data.file.childImageSharp.sizes} alt="gotorecipes logo"/>
-                        {/* <div className="project-buttons">
-                            <a 
-                                className="purple-button" 
-                                href="https://github.com/blkfltchr/gotorecipes" 
-                                target="_blank" 
-                                rel="noopener noreferrer">
-                                Code
-                            </a>
-                            <a 
-                                className="purple-button" 
-                                href="https://gotorecipes-b3714.firebaseapp.com/" 
-                                target="_blank" 
-                                rel="noopener noreferrer">
-                                Website
-                            </a>
-                        </div> */}
                     </div>
                     <div className="project-content">
                         <h4>GoToRecipes</h4>
@@ -54,7 +37,6 @@ const GoToRecipes = () => (
                             <img src={react} alt="react logo"/>
                             <img src={redux} alt="redux logo"/>
                             <img src={firebase} alt="firebase logo"/>
-                            <img src={bootstrap} alt="bootstrap logo"/>
                         </div>
                     </div>
                     <div>
