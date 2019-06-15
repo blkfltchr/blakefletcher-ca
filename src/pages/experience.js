@@ -30,7 +30,7 @@ const Experience = () => {
                     <Sprout />
                 </div>
             </div>
-            <p className="say-hello"><b>I'm currently looking for opportunities as a full stack developer. Say hello, I’d love to connect: <a href="mailto:blkfltchr@gmail.com" target="_blank" rel="noopener noreferrer">blkfltchr@gmail.com</a></b></p>            
+            <p className="say-hello"><b>Say hello, I’d love to connect: <a href="mailto:blkfltchr@gmail.com" target="_blank" rel="noopener noreferrer">blkfltchr@gmail.com</a></b></p>            
             <Footer />
         </div>
     )

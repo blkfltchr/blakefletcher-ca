@@ -18,10 +18,10 @@ const index = () => {
             <div className="page-wrapper">
                 <h2>Hey! I'm Blake Fletcher.</h2>
                 <p className="homepage-paragraph">I build things on the web. I like to find ways to connect technology to the things I love, like music, reading, learning, and connecting with others.</p>
-                <p className="homepage-paragraph">Currently, I live in Toronto, working remotely for <Link to="/experience">Lambda School</Link>, and building <a className="nav-link" href="http://conjugator.io" target="_blank" rel="noopener noreferrer">Spanish Conjugator</a>, a web app that helps Spanish language learners practice verb conjugation.</p>
+                <p className="homepage-paragraph">Currently, I live in Toronto, where I'm working remotely for <Link to="/experience">Lambda School</Link>, and building<a className="nav-link" href="http://conjugator.io" target="_blank" rel="noopener noreferrer">Spanish Conjugator</a>, a web app that helps Spanish language learners practice verb conjugation.</p>
                 <p className="homepage-paragraph">I want to talk to people about their big plans – their dreams – and how they hope to accomplish them. One day, I’d like to know how to build rocketships from scratch and fly them into outer space. That may or may not be a metaphor.</p>
             </div>
-            <p className="say-hello"><b>I'm currently looking for opportunities as a full stack developer. Say hello, I’d love to connect: <a href="mailto:blkfltchr@gmail.com" target="_blank" rel="noopener noreferrer">blkfltchr@gmail.com</a></b></p>
+            <p className="say-hello"><b>Say hello, I’d love to connect: <a href="mailto:blkfltchr@gmail.com" target="_blank" rel="noopener noreferrer">blkfltchr@gmail.com</a></b></p>
             <Footer />
         </div>
     )
