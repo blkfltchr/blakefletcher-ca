@@ -7,6 +7,7 @@ import Lambda from './exp/Lambda'
 import Pluto from './exp/Pluto'
 import Mighty from './exp/Mighty'
 import Sprout from './exp/Sprout'
+import Inkblot from './exp/Inkblot';
 
 const Experience = () => {
     return (
@@ -21,6 +22,8 @@ const Experience = () => {
             <div className="page-wrapper">
                 <h2>Experience.</h2>
                 <div>
+                    <Inkblot />
+                    <hr className="page-break"/>
                     <Lambda />
                     <hr className="page-break"/>
                     <Pluto />
