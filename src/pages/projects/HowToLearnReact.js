@@ -49,7 +49,7 @@ const HowToLearnReact = () => (
                             </a>
                             <a 
                                 className="purple-button"
-                                href="https://www.howtolearnreact.netlify.com/" 
+                                href="https://howtolearnreact.netlify.com/" 
                                 target="_blank" 
                                 rel="noopener noreferrer">
                                 Website
