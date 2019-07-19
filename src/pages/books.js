@@ -48,6 +48,7 @@ import rework from '../images/rework.jpg'
 import ignore from '../images/ignore-everybody.jpg'
 import levels from '../images/levels-of-the-game.jpg'
 import surfing from '../images/let-my-people-go-surfing.jpeg'
+import iwtytbr from '../images/iwtytbr.jpg'
 
 const Books = () => {
     return (
@@ -113,6 +114,7 @@ const Books = () => {
                         <a href="https://www.goodreads.com/book/show/608287.Jesus_Son" target="_blank" rel="noopener noreferrer"><img src={jesusson} alt="Jesus' Son by Denis Johnson"/></a>
                         <a href="https://www.goodreads.com/book/show/857333.The_Art_of_Learning" target="_blank" rel="noopener noreferrer"><img src={artoflearning} alt="The Art of Learning by Josh Waitzskin"/></a>
                         <a href="https://www.goodreads.com/book/show/54975.Levels_of_the_Game" target="_blank" rel="noopener noreferrer"><img src={levels} alt="levels of the game"/></a>
+                        <a href="https://www.goodreads.com/book/show/4924862-i-will-teach-you-to-be-rich" target="_blank" rel="noopener noreferrer"><img src={iwtytbr} alt="I Will Teach You To Be Rich by Ramit Sethi"/></a>
                     </div>
                 </div>
             </div>
