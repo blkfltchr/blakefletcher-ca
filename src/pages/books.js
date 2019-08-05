@@ -49,6 +49,7 @@ import ignore from '../images/ignore-everybody.jpg'
 import levels from '../images/levels-of-the-game.jpg'
 import surfing from '../images/let-my-people-go-surfing.jpeg'
 import iwtytbr from '../images/iwtytbr.jpg'
+import smartnotes from '../images/smart-notes-cover.jpg'
 
 const Books = () => {
     return (
@@ -62,7 +63,7 @@ const Books = () => {
             <div className="books-wrapper">
                 <h2>Books.</h2>
                 <div className="books-container">
-                    <p>These are the books I read, over and over again.</p>
+                    <p>These are the books I read, over and over again. I recommend them all.</p>
                     <div>
                         <a href="https://www.goodreads.com/book/show/81948.The_E_Myth_Revisited" target="_blank" rel="noopener noreferrer"><img src={emyth} alt="e myth revisited"/></a>
                         <a href="https://www.goodreads.com/book/show/375802.Ender_s_Game" target="_blank" rel="noopener noreferrer"><img src={enders} alt="enders game"/></a>
@@ -75,7 +76,7 @@ const Books = () => {
                         <a href="https://www.goodreads.com/book/show/100247.Vagabonding" target="_blank" rel="noopener noreferrer"><img src={vagabonding} alt="vagabonding"/></a>
                         <a href="https://www.goodreads.com/book/show/211099.Losing_My_Virginity" target="_blank" rel="noopener noreferrer"><img src={virginity} alt="losing my virginity"/></a>
                         <a href="https://www.goodreads.com/book/show/629.Zen_and_the_Art_of_Motorcycle_Maintenance" target="_blank" rel="noopener noreferrer"><img src={zen} alt="zen and the art of motorcycle maintenance"/></a>
-                    </div>
+                    {/* </div>
                     <p>These are some of the books I've taken notes on.</p>
                     <div>
                         <a href="https://medium.com/@blakefletcher/on-writing-well-by-william-zinsser-in-5-minutes-d15e45b9501d" target="_blank" rel="noopener noreferrer"><img src={onwritingwell} alt="On Writing Well by William Zinsser in 5 minutes"/></a>
@@ -89,7 +90,7 @@ const Books = () => {
                         <a href="https://medium.com/@blakefletcher/the-heros-journey-of-all-creative-people-b4d2e2bdc922" target="_blank" rel="noopener noreferrer"><img src={ignore} alt="Ignore Everybody by Hugh MacLeod in 3 minutes"/></a>
                     </div>
                     <p>These are the books I rate 5/5 but still haven't listed.</p>
-                    <div className="book-notes">
+                    <div className="book-notes"> */}
                         <a href="https://www.goodreads.com/book/show/36613747-how-to-change-your-mind" target="_blank" rel="noopener noreferrer"><img src={yourmind} alt="How to Change Your Mind by Michael Pollan"/></a>
                         <a href="https://www.goodreads.com/book/show/36200111-tribe-of-mentors" target="_blank" rel="noopener noreferrer"><img src={tribe} alt="Tribe of Mentors by Tim Ferriss"/></a>
                         <a href="https://www.goodreads.com/book/show/29254.Be_Here_Now" target="_blank" rel="noopener noreferrer"><img src={beherenow} alt="Be Here Now by Ram Dass"/></a>
@@ -115,6 +116,7 @@ const Books = () => {
                         <a href="https://www.goodreads.com/book/show/857333.The_Art_of_Learning" target="_blank" rel="noopener noreferrer"><img src={artoflearning} alt="The Art of Learning by Josh Waitzskin"/></a>
                         <a href="https://www.goodreads.com/book/show/54975.Levels_of_the_Game" target="_blank" rel="noopener noreferrer"><img src={levels} alt="levels of the game"/></a>
                         <a href="https://www.goodreads.com/book/show/4924862-i-will-teach-you-to-be-rich" target="_blank" rel="noopener noreferrer"><img src={iwtytbr} alt="I Will Teach You To Be Rich by Ramit Sethi"/></a>
+                        <a href="" target="_blank" rel="noopener noreferrer"><img src={smartnotes} alt="How To Take Smart Notes by Sönke Ahrens" /></a>
                     </div>
                 </div>
             </div>
