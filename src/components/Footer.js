@@ -1,7 +1,6 @@
 import React from 'react';
 import '../css/styles.css'
 import goodreads from '../images/goodreads-logo.png'
-import medium from '../images/medium-logo.png'
 import twitter from '../images/twitter-logo.png'
 import messenger from '../images/messenger-logo.png'
 import linkedin from '../images/linkedin-logo.png'
@@ -25,7 +24,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div>
-                
+
                 <a href="https://www.goodreads.com/user/show/46248158-blake-fletcher" target="_blank" rel="noopener noreferrer"><img src={goodreads} alt="goodreads logo"/></a>
                 <a href="http://github.com/blkfltchr" target="_blank" rel="noopener noreferrer"><img src={github} alt="github logo"/></a>
                 <a href="https://www.linkedin.com/in/blkfltchr/" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="messenger logo"/></a>

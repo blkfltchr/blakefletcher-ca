@@ -37,15 +37,6 @@ import fifthbusiness from '../images/fifth-business.jpg'
 import jitterbug from '../images/jitterbug-perfume.jpg'
 import jesusson from '../images/jesus-son.jpg'
 import artoflearning from '../images/art-of-learning.jpg'
-import onwritingwell from '../images/on-writing-well.jpg'
-import influence from '../images/influence.jpg'
-import ego from '../images/ego-is-the-enemy.jpg'
-import showyourwork from '../images/show-your-work.png'
-import innergame from '../images/inner-game-of-tennis.jpg'
-import artofthestart from '../images/art-of-the-start.jpg'
-import pitchanything from '../images/pitch-anything.jpg'
-import rework from '../images/rework.jpg'
-import ignore from '../images/ignore-everybody.jpg'
 import levels from '../images/levels-of-the-game.jpg'
 import surfing from '../images/let-my-people-go-surfing.jpeg'
 import iwtytbr from '../images/iwtytbr.jpg'
@@ -76,22 +67,7 @@ const Books = () => {
                         <a href="https://www.goodreads.com/book/show/100247.Vagabonding" target="_blank" rel="noopener noreferrer"><img src={vagabonding} alt="vagabonding"/></a>
                         <a href="https://www.goodreads.com/book/show/211099.Losing_My_Virginity" target="_blank" rel="noopener noreferrer"><img src={virginity} alt="losing my virginity"/></a>
                         <a href="https://www.goodreads.com/book/show/629.Zen_and_the_Art_of_Motorcycle_Maintenance" target="_blank" rel="noopener noreferrer"><img src={zen} alt="zen and the art of motorcycle maintenance"/></a>
-                    {/* </div>
-                    <p>These are some of the books I've taken notes on.</p>
-                    <div>
-                        <a href="https://medium.com/@blakefletcher/on-writing-well-by-william-zinsser-in-5-minutes-d15e45b9501d" target="_blank" rel="noopener noreferrer"><img src={onwritingwell} alt="On Writing Well by William Zinsser in 5 minutes"/></a>
-                        <a href="https://medium.com/@blakefletcher/influence-by-robert-cialdini-in-5-minutes-66c26032df6b" target="_blank" rel="noopener noreferrer"><img src={influence} alt="Influence by Robert Cialdini in 5 minutes"/></a>
-                        <a href="https://medium.com/@blakefletcher/ego-is-the-enemy-by-ryan-holiday-in-5-minutes-8a22f98df1e3" target="_blank" rel="noopener noreferrer"><img src={ego} alt="Ego is the Enemy by Ryan Holiday in 5 minutes"/></a>
-                        <a href="https://medium.com/@blakefletcher/show-your-work-by-austin-kleon-in-5-minutes-fd3335c416bf" target="_blank" rel="noopener noreferrer"><img src={showyourwork} alt="Show Your Work by Austin Kleon in 5 minutes"/></a>
-                        <a href="https://medium.com/@blakefletcher/the-inner-game-of-tennis-by-w-timothy-gallwey-in-5-minutes-d1696f432517" target="_blank" rel="noopener noreferrer"><img src={innergame} alt="The Inner Game of Tennis by W. Timothy Gallwey in 5 minutes"/></a>
-                        <a href="https://medium.com/@blakefletcher/art-of-the-start-2-0-by-guy-kawasaki-in-4-minutes-a432f17cbc2f" target="_blank" rel="noopener noreferrer"><img src={artofthestart} alt="The Art of the Start by Guy Kawasaki in 4 minutes"/></a>
-                        <a href="https://medium.com/@blakefletcher/pitch-anything-by-oren-klaff-in-6-minutes-216268baa8c3" target="_blank" rel="noopener noreferrer"><img src={pitchanything} alt="Pitch Anything by Oren Klaff in 6 minutes"/></a>
-                        <a href="https://medium.com/@blakefletcher/rework-by-jason-fried-and-dhh-in-6-minutes-2857682ba98" target="_blank" rel="noopener noreferrer"><img src={rework} alt="Rework by Jason Fried and DHH in 6 minutes"/></a>
-                        <a href="https://medium.com/@blakefletcher/the-heros-journey-of-all-creative-people-b4d2e2bdc922" target="_blank" rel="noopener noreferrer"><img src={ignore} alt="Ignore Everybody by Hugh MacLeod in 3 minutes"/></a>
-                    </div>
-                    <p>These are the books I rate 5/5 but still haven't listed.</p>
-                    <div className="book-notes"> */}
-                        <a href="https://www.goodreads.com/book/show/36613747-how-to-change-your-mind" target="_blank" rel="noopener noreferrer"><img src={yourmind} alt="How to Change Your Mind by Michael Pollan"/></a>
+                    <a href="https://www.goodreads.com/book/show/36613747-how-to-change-your-mind" target="_blank" rel="noopener noreferrer"><img src={yourmind} alt="How to Change Your Mind by Michael Pollan"/></a>
                         <a href="https://www.goodreads.com/book/show/36200111-tribe-of-mentors" target="_blank" rel="noopener noreferrer"><img src={tribe} alt="Tribe of Mentors by Tim Ferriss"/></a>
                         <a href="https://www.goodreads.com/book/show/29254.Be_Here_Now" target="_blank" rel="noopener noreferrer"><img src={beherenow} alt="Be Here Now by Ram Dass"/></a>
                         <a href="https://www.goodreads.com/book/show/33514.The_Elements_of_Style" target="_blank" rel="noopener noreferrer"><img src={elements} alt="The Elements of Style by Strunk & White"/></a>
@@ -116,7 +92,7 @@ const Books = () => {
                         <a href="https://www.goodreads.com/book/show/857333.The_Art_of_Learning" target="_blank" rel="noopener noreferrer"><img src={artoflearning} alt="The Art of Learning by Josh Waitzskin"/></a>
                         <a href="https://www.goodreads.com/book/show/54975.Levels_of_the_Game" target="_blank" rel="noopener noreferrer"><img src={levels} alt="levels of the game"/></a>
                         <a href="https://www.goodreads.com/book/show/4924862-i-will-teach-you-to-be-rich" target="_blank" rel="noopener noreferrer"><img src={iwtytbr} alt="I Will Teach You To Be Rich by Ramit Sethi"/></a>
-                        <a href="" target="_blank" rel="noopener noreferrer"><img src={smartnotes} alt="How To Take Smart Notes by Sönke Ahrens" /></a>
+                        <a href="https://www.goodreads.com/book/show/34507927-how-to-take-smart-notes" target="_blank" rel="noopener noreferrer"><img src={smartnotes} alt="How To Take Smart Notes by Sönke Ahrens" /></a>
                     </div>
                 </div>
             </div>
