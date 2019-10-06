@@ -8,7 +8,7 @@ import firebase from '../../images/firebase-logo-rectangle.png'
 
 const GoToRecipes = () => (
 
-    <StaticQuery 
+    <StaticQuery
         query = {graphql`
             query {
                 file(relativePath: {
@@ -17,7 +17,7 @@ const GoToRecipes = () => (
                     childImageSharp {
                         sizes(quality: 100) {
                             ...GatsbyImageSharpSizes
-                        }   
+                        }
                     }
                 }
             }
@@ -29,8 +29,13 @@ const GoToRecipes = () => (
                         <Img className="project-card-img" sizes={data.file.childImageSharp.sizes} alt="gotorecipes logo"/>
                     </div>
                     <div className="project-content">
-                        <h4>GoToRecipes</h4>
-                        <p>Built with <a href="https://github.com/eddygonzalez9708" 
+                        <a
+                            href="https://gotorecipes-b3714.firebaseapp.com/"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            <h4>GoToRecipes</h4>
+                        </a>
+                        <p>Built with <a href="https://github.com/eddygonzalez9708"
                         className="project-collaborator" target="_blank" rel="noopener noreferrer">Edward Gonzalez</a></p>
                         <p className="left-paragraph">A simple recipe tracker for people who don't know what to eat today. Built with React and Redux for the front end and Firebase for authentication, database and hosting.</p>
                         <div>
@@ -40,17 +45,17 @@ const GoToRecipes = () => (
                         </div>
                     </div>
                     <div>
-                            <a 
+                            <a
                                 className="purple-button"
-                                href="https://github.com/blkfltchr/gotorecipes" 
-                                target="_blank" 
+                                href="https://github.com/blkfltchr/gotorecipes"
+                                target="_blank"
                                 rel="noopener noreferrer">
                                 Code
                             </a>
-                            <a 
+                            <a
                                 className="purple-button"
-                                href="https://gotorecipes-b3714.firebaseapp.com/" 
-                                target="_blank" 
+                                href="https://gotorecipes-b3714.firebaseapp.com/"
+                                target="_blank"
                                 rel="noopener noreferrer">
                                 Website
                             </a>

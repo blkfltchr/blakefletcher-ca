@@ -6,13 +6,13 @@ body {
 }
 
 h2 {
-  font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
+  font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
   font-size: 2rem;
   text-align: center;
 }
 
 p {
-  font-family: Merriweather, Georgia, Times New Roman, serif;
+  font-family: 'Merriweather', Georgia, Times New Roman, serif;
 }
 
 a {
@@ -21,7 +21,7 @@ a {
 }
 
 .say-hello {
-  font-family: Merriweather, Georgia, Times New Roman, serif;
+  font-family: 'Merriweather', Georgia, Times New Roman, serif;
   font-size: 1.5rem;
   text-align: center;
   margin: 20px auto;
@@ -55,7 +55,7 @@ a {
   border: solid 2px #ff7f50;
   font-weight: bold;
   text-decoration: none;
-  font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
+  font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
   height: 21px;
   width: 100px;
 }
@@ -83,7 +83,7 @@ a {
   top: 12px;
   right: 12px;
   height: 4rem;
-  font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
+  font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -132,10 +132,9 @@ a {
       top: 0;
       right: 0;
       background-color: white;
-      height: 400px;
+      min-height: 100vh;
       flex-direction: column;
       justify-content: space-evenly;
-      border-bottom: solid 2px lightgrey;
       z-index: 50;
   }
 }
@@ -156,8 +155,8 @@ a {
 /* Footer styles */
 
 .footer-wrapper {
-  font-family: Merriweather, Georgia, Times New Roman, serif; 
-  background-color: #f6f9fc; 
+  font-family: 'Merriweather', Georgia, Times New Roman, serif;
+  background-color: #f6f9fc;
   padding: 0.5rem 0;
 }
 
@@ -168,12 +167,12 @@ a {
 }
 
 .footer-wrapper span {
-  font-weight: bold; 
+  font-weight: bold;
   text-decoration: underline;
 }
 
 .footer-wrapper img {
-  margin: 0.3rem; 
+  margin: 0.3rem;
   height: 25px;
 }
 
@@ -223,7 +222,7 @@ a {
 }
 
 .project-card {
-  font-family: Merriweather, Georgia, Times New Roman, serif;
+  font-family: 'Merriweather', Georgia, Times New Roman, serif;
   position: relative;
 }
 
@@ -237,26 +236,6 @@ a {
   position: absolute;
 }
 
-/* .project-buttons {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.project-card:hover .project-card-img {
-  opacity: 0.3;
-}
-
-.project-card:hover .project-buttons {
-  opacity: 1;
-} */
-
 /* Project content (text and tech images) */
 
 .project-content {
@@ -266,12 +245,12 @@ a {
 }
 
 .project-content h4 {
-  font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
+  font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
   font-size: 1.4rem;
 }
 
 .project-content p {
-  font-family: Merriweather, Georgia, Times New Roman, serif;
+  font-family: 'Merriweather', Georgia, Times New Roman, serif;
   margin-top: 0;
 }
 
@@ -305,13 +284,13 @@ a {
 /* Exp styles */
 
 .exp h4 {
-  font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
+  font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
   font-size: 1.4rem;
   text-align: center;
 }
 
 .exp p {
-  font-family: Merriweather, Georgia, Times New Roman, serif;
+  font-family: 'Merriweather', Georgia, Times New Roman, serif;
   text-align: center;
 }
 
@@ -331,10 +310,9 @@ a {
 }
 
 .blogpost-link h4 {
-  font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
+  font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
   font-size: 1.4rem;
   color: #ff7f50;
-  text-decoration: underline;
 }
 
 /* Books styles */
@@ -371,7 +349,7 @@ a {
 }
 
 .book-notes {
-  font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
+  font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
   list-style: none;
   text-align: center;
 }
@@ -408,7 +386,7 @@ a {
 }
 
 .form-input label {
-  font-family: Merriweather, Georgia, Times New Roman, serif;
+  font-family: 'Merriweather', Georgia, Times New Roman, serif;
   font-size: 1.5rem;
   text-align: center;
 }
@@ -418,7 +396,7 @@ a {
   padding: 1rem;
   border: solid 1px lightgrey;
   border-radius: 1rem;
-  font-family: Merriweather, Georgia, Times New Roman, serif;
+  font-family: 'Merriweather', Georgia, Times New Roman, serif;
   font-size: 1.4rem
 }
 
@@ -427,7 +405,7 @@ a {
   padding: 1rem;
   border: solid 1px lightgrey;
   border-radius: 1rem;
-  font-family: Merriweather, Georgia, Times New Roman, serif;
+  font-family: 'Merriweather', Georgia, Times New Roman, serif;
   font-size: 1.4rem
 }
 
@@ -441,18 +419,18 @@ a {
   border: solid 2px #ff7f50;
   font-weight: bold;
   text-decoration: none;
-  font-family: Lato, Helvetica, Arial, Lucida, sans-serif
+  font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif
 }
-  
+
   /* Post styles */
 
 .markdown h2 {
-  font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
+  font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
   font-size: 1.4rem;
 }
 
 .markdown p {
-  font-family: Merriweather, Georgia, Times New Roman, serif;
+  font-family: 'Merriweather', Georgia, Times New Roman, serif;
 }
 
 .markdown img {
@@ -495,12 +473,12 @@ a {
 /* Blog post styles */
 
 .blogpost-title {
-  font-family: Lato, Helvetica, Arial, Lucida, sans-serif;
+  font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
   font-size: 2.4rem;
 }
 
 .blogpost-date {
-  font-family: Merriweather, Georgia, Times New Roman, serif;
+  font-family: 'Merriweather', Georgia, Times New Roman, serif;
   font-size: 1.4rem;
   font-style: italic;
   color: grey;
@@ -510,32 +488,32 @@ a {
 
 .success-error {
   text-align: center;
-  font-family: Raleway, sans-serif; 
+  font-family: Raleway, sans-serif;
 }
 
 .success-error h1 {
-  font-family: Monaco,Consolas, 'Andale  Mono', 'DejaVu Sans Mono', monospace; 
-  font-size: 168px; 
-  margin: 0px; 
-  color: #a9a9a9; 
+  font-family: Monaco,Consolas, 'Andale  Mono', 'DejaVu Sans Mono', monospace;
+  font-size: 168px;
+  margin: 0px;
+  color: #a9a9a9;
   text-transform: uppercase;
 }
 
 .success-error p {
-  font-family: Raleway, sans-serif; 
-  font-size: 22px; 
-  font-weight: 400; 
-  text-transform: uppercase; 
-  color: #222; 
+  font-family: Raleway, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #222;
 }
 
 .success-error div {
-  font-weight: 700; 
-  color: #ff7f50; 
-  font-size: 22px; 
+  font-weight: 700;
+  color: #ff7f50;
+  font-size: 22px;
 }
 
 .homepage-link {
   color: #a9a9a9;
-  font-weight: 700; 
+  font-weight: 700;
 }

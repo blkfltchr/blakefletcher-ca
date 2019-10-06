@@ -9,7 +9,7 @@ import algolia from '../../images/algolia-logo-rectangle.png'
 
 const HowToLearnReact = () => (
 
-    <StaticQuery 
+    <StaticQuery
         query = {graphql`
             query {
                 file(relativePath: {
@@ -18,7 +18,7 @@ const HowToLearnReact = () => (
                     childImageSharp {
                         sizes(quality: 100) {
                             ...GatsbyImageSharpSizes
-                        }   
+                        }
                     }
                 }
             }
@@ -30,7 +30,12 @@ const HowToLearnReact = () => (
                         <Img className="project-card-img" sizes={data.file.childImageSharp.sizes} alt="howtolearnreact logo"/>
                     </div>
                     <div className="project-content">
-                        <h4>How To Learn React</h4>
+                        <a
+                            href="https://howtolearnreact.netlify.com/"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            <h4>How To Learn React</h4>
+                        </a>
                         <p className="left-paragraph">A project intended to share the things I learn while working with React. As I build things, complete tutorials, read articles, and watch videos, I add to the blog.</p>
                         <div>
                             <img src={gatsby} alt="gatsby logo"/>
@@ -40,17 +45,17 @@ const HowToLearnReact = () => (
                         </div>
                     </div>
                     <div>
-                            <a 
+                            <a
                                 className="purple-button"
-                                href="https://github.com/blkfltchr/howtolearnreact" 
-                                target="_blank" 
+                                href="https://github.com/blkfltchr/howtolearnreact"
+                                target="_blank"
                                 rel="noopener noreferrer">
                                 Code
                             </a>
-                            <a 
+                            <a
                                 className="purple-button"
-                                href="https://howtolearnreact.netlify.com/" 
-                                target="_blank" 
+                                href="https://howtolearnreact.netlify.com/"
+                                target="_blank"
                                 rel="noopener noreferrer">
                                 Website
                             </a>
