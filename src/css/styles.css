@@ -114,19 +114,19 @@ a {
   border-radius: 2px;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 768px) {
   .burger {
       display: inline;
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 768px) {
   .nav-links-none {
       display: none;
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 768px) {
   .nav-links {
       position: relative;
       top: 0;
@@ -140,7 +140,7 @@ a {
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 768px) {
   .burger {
       display: block;
       position: absolute;

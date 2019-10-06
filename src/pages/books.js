@@ -41,6 +41,7 @@ import levels from '../images/levels-of-the-game.jpg'
 import surfing from '../images/let-my-people-go-surfing.jpeg'
 import iwtytbr from '../images/iwtytbr.jpg'
 import smartnotes from '../images/smart-notes-cover.jpg'
+import ecommerceevolved from '../images/ecommerce-evolved.jpg'
 
 const Books = () => {
     return (
@@ -93,6 +94,7 @@ const Books = () => {
                         <a href="https://www.goodreads.com/book/show/54975.Levels_of_the_Game" target="_blank" rel="noopener noreferrer"><img src={levels} alt="levels of the game"/></a>
                         <a href="https://www.goodreads.com/book/show/4924862-i-will-teach-you-to-be-rich" target="_blank" rel="noopener noreferrer"><img src={iwtytbr} alt="I Will Teach You To Be Rich by Ramit Sethi"/></a>
                         <a href="https://www.goodreads.com/book/show/34507927-how-to-take-smart-notes" target="_blank" rel="noopener noreferrer"><img src={smartnotes} alt="How To Take Smart Notes by Sönke Ahrens" /></a>
+                        <a href="https://www.goodreads.com/book/show/35102660-ecommerce-evolved" target="_blank" rel="noopener noreferrer"><img src={ecommerceevolved} alt="Ecommerce Evolved by Tanner Larsson" /></a>
                     </div>
                 </div>
             </div>
