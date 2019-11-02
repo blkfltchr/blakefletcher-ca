@@ -8,11 +8,12 @@ import Pluto from './exp/Pluto'
 import Mighty from './exp/Mighty'
 import Sprout from './exp/Sprout'
 import Inkblot from './exp/Inkblot';
+import CityLove from './exp/CityLove';
 
 const Experience = () => {
     return (
         <div>
-            
+
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Experience - Blake Fletcher</title>
@@ -22,6 +23,8 @@ const Experience = () => {
             <div className="page-wrapper">
                 <h2>Experience.</h2>
                 <div>
+                    <CityLove />
+                    <hr className="page-break"/>
                     <Inkblot />
                     <hr className="page-break"/>
                     <Lambda />
@@ -33,7 +36,7 @@ const Experience = () => {
                     <Sprout />
                 </div>
             </div>
-            <p className="say-hello"><b>Say hello, I’d love to connect: <a href="mailto:blkfltchr@gmail.com" target="_blank" rel="noopener noreferrer">blkfltchr@gmail.com</a></b></p>            
+            <p className="say-hello"><b>Say hello, I’d love to connect: <a href="mailto:blkfltchr@gmail.com" target="_blank" rel="noopener noreferrer">blkfltchr@gmail.com</a></b></p>
             <Footer />
         </div>
     )

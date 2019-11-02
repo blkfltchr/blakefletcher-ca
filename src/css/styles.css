@@ -182,6 +182,10 @@ a {
   font-size: 1.5rem;
 }
 
+.homepage-paragraph a {
+  margin-right: 0;
+}
+
 /* Projects styles */
 
 .projects-text {
