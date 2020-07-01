@@ -7,12 +7,12 @@ import HowToLearnReact from './projects/HowToLearnReact'
 import GoToRecipes from './projects/GoToRecipes'
 import LambdaTimeline from './projects/LambdaTimeline';
 import SpanishConjugator from './projects/SpanishConjugator';
-// import LambdaSky from './projects/LambdaSky';
+import CityLove from './projects/CityLove';
 import BookMaps from './projects/BookMaps';
 
 const Projects = () => {
     return (
-        <div>  
+        <div>
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Projects - Blake Fletcher</title>
@@ -22,12 +22,12 @@ const Projects = () => {
             <div className="projects-text">
                 <h2>Projects.</h2>
                 <div>
+                    <CityLove />
                     <BookMaps />
                     <SpanishConjugator />
                     <HowToLearnReact />
                     <LambdaTimeline />
                     <GoToRecipes />
-                    {/* <LambdaSky /> */}
                 </div>
                 <p className="say-hello"><b>Say hello, I’d love to connect: <a href="mailto:blkfltchr@gmail.com" target="_blank" rel="noopener noreferrer">blkfltchr@gmail.com</a></b></p>            </div>
             <Footer />

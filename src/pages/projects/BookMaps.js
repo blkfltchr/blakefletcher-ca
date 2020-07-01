@@ -48,21 +48,21 @@ const BookMaps = () => (
                         </div>
                     </div>
                     <div>
-                            <a
-                                className="purple-button"
-                                href="https://github.com/labs11-library"
-                                target="_blank"
-                                rel="noopener noreferrer">
-                                Code
-                            </a>
-                            <a
-                                className="purple-button"
-                                href="https://bookmaps.netlify.com/"
-                                target="_blank"
-                                rel="noopener noreferrer">
-                                Website
-                            </a>
-                        </div>
+                        <a
+                            className="purple-button"
+                            href="https://github.com/labs11-library"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            Code
+                        </a>
+                        <a
+                            className="purple-button"
+                            href="https://bookmaps.netlify.com/"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            Website
+                        </a>
+                    </div>
                 </div>
             )
         }
