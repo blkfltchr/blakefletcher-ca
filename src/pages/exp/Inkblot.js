@@ -24,7 +24,7 @@ const Inkblot = () => (
                 <div className="exp">
                     <a href="https://inkblottherapy.com/" target="_blank" rel="noopener noreferrer"><Img className="experience-img" sizes={data.file.childImageSharp.sizes} alt="inkblot jumbo"/>
                     <h4>Inkblot</h4></a>
-                    <p className="left-paragraph">At Inkblot, we aim to help you feel motivated and at your best. We ground our approach in the belief that mental health services should be convenient, affordable and confidential. Our mission is to help all Canadians have more meaningful, connected and joyful lives. We are reinventing how we support Canadians.</p>
+                    <p className="left-paragraph">I currently work at Inkblot as a Software Engineer. I've written features across our full suite of products using React, Redux, Rails and PostgreSQL. We are reinventing mental health support and our mission is to help people have more meaningful, connected and joyful lives.</p>
                     <p className="exp-dates">Software Engineer, June 2019-Current</p>
                 </div>
             )
