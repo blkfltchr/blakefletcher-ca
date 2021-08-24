@@ -24,9 +24,7 @@
     "react-dom": "^16.10.2",
     "react-helmet": "^5.2.1"
   },
-  "devDependencies": {
-    "prettier": "^1.18.2"
-  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/blkfltchr/blakefletcher-ca"
