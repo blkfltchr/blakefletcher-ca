@@ -9,7 +9,7 @@ const CloudGallery = () => (
         query = {graphql`
             query {
                 file(relativePath: {
-                    regex: "/inkblot/"
+                    regex: "/cloudgallery/"
                 }) {
                     childImageSharp {
                         sizes(quality: 100) {
