@@ -32,7 +32,7 @@ const Footer = () => {
                 <a href="https://twitter.com/blkfltchr" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="twitter logo"/></a>
                 <a href="https://www.instagram.com/blkfltchr/" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="instagram logo"/></a>
             </div>
-            <div>blakefletcher.ca v.3.3.3</div>
+            <div>blakefletcher.ca v.3.5.1</div>
             <div><a href="https://github.com/blkfltchr/blakefletcher-ca" target="_blank" rel="noopener noreferrer">Github Repo</a></div>
         </div>
     )
